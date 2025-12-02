@@ -343,4 +343,8 @@ We thank the reviewers for their constructive feedback and remain available to a
 
 ---
 
-*Corresponding Author: [Author Name, Institution]*
+**Corresponding Author:**
+Richard J. Redett, MD
+Department of Plastic and Reconstructive Surgery
+Johns Hopkins University School of Medicine
+Email: rredett1@jhmi.edu
