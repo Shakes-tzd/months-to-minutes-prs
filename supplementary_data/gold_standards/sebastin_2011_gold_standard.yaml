@@ -1,0 +1,897 @@
+metadata:
+  validation_set_name: sebastin_2011
+  description: GOLD STANDARD VERIFIED CITATIONS FOR SEBASTIN_2011
+  date: '2025-11-26'
+  source: Validated gold standard from VALIDATION_PMID_RETRIEVAL.yaml
+  extraction_method: Manual validation + PubMed metadata fetch
+  quality: Gold standard - 100% validated
+  summary:
+    total_papers: 30
+    in_pubmed: 30
+    not_in_pubmed: 0
+    pmid_coverage_percent: 100.0
+    abstracts_retrieved: 30
+    abstract_coverage_percent: 100.0
+papers_in_pubmed:
+- ref_id: 1
+  pmid: 11405359
+  citation_short: Akyurek et al., 2001
+  citation_full: 'Akyurek M, Safak T, Kecik A. Fingertip replantation at or distal
+    to the nail base: use of the technique of artery-only anastomosis.. Ann Plast
+    Surg. 2001. PMID: 11405359. DOI: 10.1097/00000637-200106000-00006'
+  title: 'Fingertip replantation at or distal to the nail base: use of the technique
+    of artery-only anastomosis.'
+  journal: Ann Plast Surg
+  year: 2001
+  authors: Akyurek M, Safak T, Kecik A
+  doi: 10.1097/00000637-200106000-00006
+  abstract: The authors describe the functional and aesthetic results of microsurgical
+    replantation of 21 fingertip amputations at or distal to the nail base-namely,
+    zone I amputations. There were 15 male and 6 female patients, with an average
+    age of 26 years (age range, 1-41 years). Replantations were performed using the
+    anastomosis of the artery-only technique, with neither vein nor nerve repair.
+    Venous drainage was provided by an external bleeding method with a fish-mouth
+    incision in "distal" zone I amputations for approximately 7 days, and by the use
+    of leeches in more "proximal" zone I amputations for 10 to 12 days. Results indicated
+    that the overall survival rate was 76%, with 16 of 21 digits surviving. Sensory
+    evaluation at an average follow-up of 12 months (range, 6-18 months) revealed
+    an average static two-point discrimination of 6.1 mm (range, 2.0-8.0 mm). Considering
+    the unfavorable results and the donor site morbidity of various fingertip reconstructions,
+    a microsurgical fingertip replantation should always be considered except in extremely
+    distal, clean-cut, pediatric cases, in which case a composite graft is a possibility.
+    The results of this series indicate that an amputated fingertip in zone I can
+    be salvaged successfully by microvascular anastomosis of the artery only, with
+    a nonmicrosurgical method of venous drainage. Furthermore, acceptable sensory
+    recovery can be expected without any nerve coaptation.
+  abstract_retrieved: true
+  source: gold_standard_validated
+- ref_id: 2
+  pmid: 12621185
+  citation_short: Hattori et al., 2003
+  citation_full: 'Hattori Y, Doi K, Ikeda K, Abe Y, Dhawan V. Significance of venous
+    anastomosis in fingertip replantation.. Plast Reconstr Surg. 2003. PMID: 12621185.
+    DOI: 10.1097/01.PRS.0000046497.88549.E0'
+  title: Significance of venous anastomosis in fingertip replantation.
+  journal: Plast Reconstr Surg
+  year: 2003
+  authors: Hattori Y, Doi K, Ikeda K, Abe Y, Dhawan V
+  doi: 10.1097/01.PRS.0000046497.88549.E0
+  abstract: Adequate venous outflow is the most important factor for successful fingertip
+    replantation. The authors have attempted venous anastomosis in all cases of fingertip
+    replantation to overcome postoperative congestion. In this article, the significance
+    of venous repair for fingertip replantation is described from the authors' results
+    of 64 complete fingertip amputations in 55 consecutive patients, which were replanted
+    from January of 1996 to June of 2001. The overall survival rate was 86 percent.
+    Of the 44 replantations in zone I, 37 survived, and the success rate was 84 percent.
+    Of the 20 replantations in zone II, 18 survived, and the success rate was 90 percent.
+    Venous anastomosis was attempted in all cases, but it was possible in 39 zone
+    I and in all zone II replantations. For arterial repair, vein grafts were necessary
+    in 17 of the 44 zone I and in one of the 20 zone II replantations; for venous
+    repair, they were necessary in six zone I replantations and one zone II replantation.
+    Postoperative vascular complications occurred in 15 replantations. There were
+    five cases of arterial thrombosis and 10 cases of venous congestion. Venous congestion
+    occurred in nine zone I and one zone II replantations. In five of these 10 replantations,
+    venous anastomosis was not possible. In another five replantations, venous outflow
+    was established at the time of surgery, but occlusion occurred subsequently. Except
+    for the five failures resulting from arterial thrombosis, successful venous repair
+    was possible in 49 of 59 replantations (83 percent). Despite the demand for skillful
+    microsurgical technique and longer operation time, the authors' results using
+    venous anastomosis in successful fingertip replantations are encouraging. By performing
+    venous anastomosis, external bleeding can be avoided and a higher survival rate
+    can be achieved. Venous anastomosis for fingertip replantation is a reliable and
+    worthwhile procedure.
+  abstract_retrieved: true
+  source: gold_standard_validated
+- ref_id: 3
+  pmid: 14707643
+  citation_short: Lin et al., 2004
+  citation_full: 'Lin TS, Jeng SF, Chiang YC. Fingertip replantation using the subdermal
+    pocket procedure.. Plast Reconstr Surg. 2004. PMID: 14707643. DOI: 10.1097/01.PRS.0000095950.31223.09'
+  title: Fingertip replantation using the subdermal pocket procedure.
+  journal: Plast Reconstr Surg
+  year: 2004
+  authors: Lin TS, Jeng SF, Chiang YC
+  doi: 10.1097/01.PRS.0000095950.31223.09
+  abstract: Restoration of finger length and function are the goals of replantation
+    after fingertip amputation. Methods include microsurgical replantation and nonmicrosurgical
+    replantation, such as composite graft techniques. To increase the survival rates
+    for composite grafts, the subcutaneous pocket procedure has been used as a salvage
+    procedure. The subdermal pocket procedure, which is a modification of the subcutaneous
+    pocket procedure, was used for replantation of 17 fingertips in 16 consecutive
+    patients. Eight fingertips experienced guillotine injuries and the other nine
+    fingertips experienced crush injuries. Revascularization of one digital artery
+    without available venous outflow was performed for six fingers, and composite
+    graft techniques were used for the other 11 fingers. The success rate was 16 of
+    17 cases. The difference in success rates for guillotine versus crush injuries
+    was statistically significant. Comparison of patients with arterial anastomoses
+    and patients without arterial anastomoses also indicated a statistically significant
+    difference. Thirteen fingertips survived completely. One finger, demonstrating
+    complete loss and early termination of the pocketing procedure, was amputated
+    on the eighth postoperative day. Two fingers were partially lost because of severe
+    crushing injuries. One finger demonstrated partial loss of more than one quarter
+    of the fingertip, which required secondary revision, because the patient was a
+    heavy smoker. The pocketing period was 8 +/- 1 days (mean +/- SD, n = 6) for the
+    fingers revascularized with one digital arterial anastomosis and 13.3 +/- 1.9
+    days (n = 10) for the fingers successfully replanted with composite graft techniques.
+    The mean active range of motion of the interphalangeal joint of the three thumbs
+    was 65 +/- 5 degrees, and that of the distal interphalangeal joint of the other
+    11 fingers was 51 +/- 11 degrees. The static two-point discrimination result was
+    6.4 +/- 1.0 mm (n = 14) after an average of 11 +/- 5 months of follow-up monitoring.
+    Compared with other methods, the subdermal pocket procedure has the advantages
+    of exact subdermal/subdermal contact, a shorter pocketing period, and more feasible
+    observation. The method can offer an alternative salvage procedure for fingertip
+    amputations with no suitable vessels available for microsurgical replantation.
+  abstract_retrieved: true
+  source: gold_standard_validated
+- ref_id: 4
+  pmid: 15385770
+  citation_short: Matsuzaki et al., 2004
+  citation_full: 'Matsuzaki H, Yoshizu T, Maki Y, Tsubokawa N. Functional and cosmetic
+    results of fingertip replantation: anastomosing only the digital artery.. Ann
+    Plast Surg. 2004. PMID: 15385770. DOI: 10.1097/01.sap.0000137136.09890.18'
+  title: 'Functional and cosmetic results of fingertip replantation: anastomosing
+    only the digital artery.'
+  journal: Ann Plast Surg
+  year: 2004
+  authors: Matsuzaki H, Yoshizu T, Maki Y, Tsubokawa N
+  doi: 10.1097/01.sap.0000137136.09890.18
+  abstract: In fingertip amputations, conventional stump plasty provides an almost
+    acceptable functional result. However, replanting fingertips can preserve the
+    nail and minimize loss of function. We investigated the functional and cosmetic
+    results of fingertip replantation at the terminal branch of the digital artery.
+    Outcomes were nailbed width and distal-segment length; sensory recovery; and range
+    of motion (ROM) of thumb-interphalangeal (IP) or finger-distal interphalangeal
+    (DIP) joints, and total active motion (TAM) of the replanted finger. Of 15 fingertips
+    replanted after only arterial anastomosis, 13 were successful, and 12 were studied.
+    After a median of 1.3 years, mean nailbed widths and distal-segment lengths were
+    95.4% and 93.0%, respectively, of the contralateral finger. Average TAM and ROM
+    of the thumb-IP or finger-DIP joints were 92.0% and 83.0% of normal, respectively.
+    Semmes-Weinstein results were blue (3.22 to 3.61) in 4 fingers and purple (3.84
+    to 4.31) in 8; the mean result from the 2-point discrimination test was 5.9 mm
+    (range, 3 to 11 mm). Thus, amputated fingertips should be aggressively replanted.
+  abstract_retrieved: true
+  source: gold_standard_validated
+- ref_id: 5
+  pmid: 1546084
+  citation_short: Koshima et al., 1992
+  citation_full: 'Koshima I, Soeda S, Moriguchi T, Higaki H, Miyakawa S, Yamasaki
+    M. The use of arteriovenous anastomosis for replantation of the distal phalanx
+    of the fingers.. Plast Reconstr Surg. 1992. PMID: 1546084. DOI: 10.1097/00006534-199204000-00021'
+  title: The use of arteriovenous anastomosis for replantation of the distal phalanx
+    of the fingers.
+  journal: Plast Reconstr Surg
+  year: 1992
+  authors: Koshima I, Soeda S, Moriguchi T, Higaki H, Miyakawa S, Yamasaki M
+  doi: 10.1097/00006534-199204000-00021
+  abstract: Microvascular replantation at the distal phalangeal level has recently
+    been reported by several authors, but as yet the rate of success has not been
+    constant owing to the technical difficulties associated with small vessels. To
+    solve this problem, over the last 4 years we have used arteriovenous anastomosis
+    to reestablish either the arterial system or the venous drainage system in the
+    33 digits of our 23 patients. The results have been excellent, with a 91 percent
+    success rate. Such results for replantation of the distal phalanx may be maintained
+    and improved if a small venous graft with several branches is also utilized.
+  abstract_retrieved: true
+  source: gold_standard_validated
+- ref_id: 6
+  pmid: 15622245
+  citation_short: Koshima et al., 2005
+  citation_full: 'Koshima I, Yamashita S, Sugiyama N, Ushio S, Tsutsui T, Nanba Y.
+    Successful delayed venous drainage in 16 consecutive distal phalangeal replantations..
+    Plast Reconstr Surg. 2005. PMID: 15622245'
+  title: Successful delayed venous drainage in 16 consecutive distal phalangeal replantations.
+  journal: Plast Reconstr Surg
+  year: 2005
+  authors: Koshima I, Yamashita S, Sugiyama N, Ushio S, Tsutsui T, Nanba Y
+  doi: null
+  abstract: The authors describe, in the first report of this type of replantation
+    surgery, a high success rate using delayed venous anastomosis in 16 consecutive
+    distal phalangeal replantations under digital block. Among these replantations,
+    seven fingers (43.8 percent) showed postoperative venous congestion and five fingers
+    were reoperated on with delayed venous drainage under digital block. All the reoperated
+    fingers were successfully drained by additional single or double venous drainage
+    with a vein graft. As a result, 13 fingers survived (81.3 percent success rate).
+    All operations were performed under a digital block.
+  abstract_retrieved: true
+  source: gold_standard_validated
+- ref_id: 7
+  pmid: 1596659
+  citation_short: Foucher et al., 1992
+  citation_full: 'Foucher G, Norris RW. Distal and very distal digital replantations..
+    Br J Plast Surg. 1992. PMID: 1596659. DOI: 10.1016/0007-1226(92)90076-a'
+  title: Distal and very distal digital replantations.
+  journal: Br J Plast Surg
+  year: 1992
+  authors: Foucher G, Norris RW
+  doi: 10.1016/0007-1226(92)90076-a
+  abstract: Ninety-five patients with 98 complete or incomplete amputations of digits
+    are reviewed. Three levels are considered according to the bony lesion, zone III
+    being distal to the nail matrix. In this area, artery, nerve and vein repair need
+    special techniques. The use of leeches in the absence of vein repair does not
+    preclude an acceptable survival rate (68%), compared to the overall series (65.5%);
+    however, smoking is detrimental (52%). Distal replantation is a fast and worthwhile
+    procedure providing acceptable sensibility, no PIP limitation and good appearance
+    at the price of a mean 74 days off work.
+  abstract_retrieved: true
+  source: gold_standard_validated
+- ref_id: 8
+  pmid: 16894484
+  citation_short: Hahn et al., 2006
+  citation_full: 'Hahn HO, Jung SG. Results of replantation of amputated fingertips
+    in 450 patients.. J Reconstr Microsurg. 2006. PMID: 16894484. DOI: 10.1055/s-2006-947694'
+  title: Results of replantation of amputated fingertips in 450 patients.
+  journal: J Reconstr Microsurg
+  year: 2006
+  authors: Hahn HO, Jung SG
+  doi: 10.1055/s-2006-947694
+  abstract: Over a 15-year period (August, 1988 to May 2003), the authors have carried
+    out 510 replantations of amputated fingertips distal to the nail base (zone I)
+    in 450 patients, with a high overall survival rate (92 percent), using combinations
+    of arterial and venous anastomoses without any alternative methods such as "pocketing."
+    Replantations that anastomosed only one artery (25 digits) had a success rate
+    of 68 percent, one artery and one vein (115 digits) had a success rate of 82 percent,
+    one artery and two veins (240 digits) had a success rate of 95 percent and more
+    than two artery and vein anastomoses (130 digits), had a success rate of 99 percent.
+    The follow-up period ranged from 3 months to 14 years and 432 patients were followed-up
+    more than 6 months. In these latter patients, the average two-point discrimination
+    was 7 mm.
+  abstract_retrieved: true
+  source: gold_standard_validated
+- ref_id: 9
+  pmid: 18683863
+  citation_short: Ozcelik et al., 2008
+  citation_full: 'Ozcelik IB, Tuncer S, Purisa H, Sezer I, Mersa B, Kabakas F, Celikdelen
+    P. Sensory outcome of fingertip replantations without nerve repair.. Microsurgery.
+    2008. PMID: 18683863. DOI: 10.1002/micr.20543'
+  title: Sensory outcome of fingertip replantations without nerve repair.
+  journal: Microsurgery
+  year: 2008
+  authors: Ozcelik IB, Tuncer S, Purisa H, Sezer I, Mersa B, Kabakas F, Celikdelen
+    P
+  doi: 10.1002/micr.20543
+  abstract: The sensory recovery outcomes of fingertip replantations without nerve
+    repair were retrospectively studied. Between 2000 and 2006, 112 fingertip replantations
+    with only arterial repair were carried out in 98 patients. About 76 of the replants
+    survived totally, with a success rate of 67.8%. Evaluation of sensory recovery
+    was possible in 31 patients (38 replantations). Sensory evaluation was made with
+    Semmes-Weinstein, static and dynamic two-point discrimination, and vibration sense
+    tests. Fingertip atrophy, nail deformities, and return to work were also evaluated.
+    According to the Semmes-Weinstein test, 29.0% (11/38) of the fingers had normal
+    sense, 60.5% (23/38) had diminished light touch, 7.9% (3/38) had diminished protective
+    sensation, and 2.6% (1/38) had loss of protective sensation. Mean static and dynamic
+    two-point discriminations were 7.2 mm (3-11 mm), and 4.60 mm (3-6 mm), respectively.
+    Vibratory testing revealed increased vibration in 42.1% of the fingers, decreased
+    vibration in 36.8%, and equal vibration when compared with the non-injured fingers
+    in 21.1%. Atrophy was present in 14 (36.8%) fingers and negatively affected the
+    results. Nail deformities, cold intolerance, return to work, and the effect of
+    sensory education were investigated. Comparison of crush and clean cut injuries
+    did not yield any significant difference in any of the parameters. Patients who
+    received sensory education had significantly better results in sensory testing.
+    The results were classified as excellent, good, and poor based on results of two-point
+    discrimination tests. The outcome was excellent in 18 fingers and good in 20 fingers.
+    Overall, satisfactory sensory recovery was achieved in fingertip replantations
+    without nerve repair.
+  abstract_retrieved: true
+  source: gold_standard_validated
+- ref_id: 10
+  pmid: 18766047
+  citation_short: Li et al., 2008
+  citation_full: 'Li J, Guo Z, Zhu Q, Lei W, Han Y, Li M, Wang Z. Fingertip replantation:
+    determinants of survival.. Plast Reconstr Surg. 2008. PMID: 18766047. DOI: 10.1097/PRS.0b013e318180ed61'
+  title: 'Fingertip replantation: determinants of survival.'
+  journal: Plast Reconstr Surg
+  year: 2008
+  authors: Li J, Guo Z, Zhu Q, Lei W, Han Y, Li M, Wang Z
+  doi: 10.1097/PRS.0b013e318180ed61
+  abstract: 'BACKGROUND: The purpose of this study was to determine the risk factors
+    for an unsuccessful replanted fingertip. METHODS: Two hundred eleven complete
+    fingertip amputations in 211 patients who underwent replantation surgery between
+    August of 1990 and March of 2006 were included in this study. The patients'' age,
+    gender, smoking history, digit position, dominant hand, amputation level, injury
+    mechanism, platelet count, ischemia time, preservation method of the amputated
+    part, anesthesia, number of arteries repaired, venous drainage, use of vein grafting,
+    neurorrhaphy, bone shortening, and smoking after operation were tested for their
+    impact on fingertip survival. RESULTS: One hundred seventy-two of 211 patients
+    (81.5 percent) had a successful replantation. Univariate analysis showed crush
+    or avulsion injury, high platelet count, and inappropriate preservation of the
+    amputated part in saline solution or ethanol to be associated with a high incidence
+    of replantation failure. Twenty-two of 54 patients (41 percent) who had a crush
+    or avulsion trauma had failed replantation. Logistic regression analysis identified
+    injury mechanism, platelet count, smoking after operation, preservation method
+    of the amputated part, and the use of vein grafting as statistically significant
+    predictive factors for success or failure. CONCLUSIONS: Injury mechanism, platelet
+    count, smoking after operation, preservation method of amputated part, and the
+    use of vein grafting were found to be the main predictors for the survival of
+    the replanted fingertip. Applying external bleeding in zone 1 and venous drainage
+    through the medullary cavity in zone 2 or venous anastomosis combined with vein
+    grafting rather than venous anastomosis alone were strongly recommended in the
+    fingertip replantation of crush or avulsion injury.'
+  abstract_retrieved: true
+  source: gold_standard_validated
+- ref_id: 11
+  pmid: 18984343
+  citation_short: Zhang et al., 2008
+  citation_full: 'Zhang X, Wen S, Wang B, Wang Q, Li C, Zhu H. Reconstruction of circulation
+    in the fingertip without vein repair in zone I replantation.. J Hand Surg Am.
+    2008. PMID: 18984343. DOI: 10.1016/j.jhsa.2008.05.005'
+  title: Reconstruction of circulation in the fingertip without vein repair in zone
+    I replantation.
+  journal: J Hand Surg Am
+  year: 2008
+  authors: Zhang X, Wen S, Wang B, Wang Q, Li C, Zhu H
+  doi: 10.1016/j.jhsa.2008.05.005
+  abstract: 'PURPOSE: In fingertip replantation, adequate venous drainage is important
+    for success. As the level of amputation becomes more distal, anastomosis of veins
+    becomes more technically difficult. External bleeding is a common solution to
+    venous congestion, but the process is burdensome because of duration of bleeding
+    for 3 or more days after surgery. We present a new technique for reconstructing
+    circulation without vein anastomosis in zone I replantation and analyze the outcomes
+    of this technique in terms of eliminating external bleeding and of a high survival
+    rate of the replanted digits. METHODS: Between 1997 and 2007, we performed 120
+    replantations in 112 patients (83 male and 29 female; mean age, 33 years; range,
+    3-54 years). All were zone I amputations, based on the Tamai classification. We
+    surgically repaired both proper digital arteries, excluded the vein, and then
+    ligated 1 of the arteries. Using this technique, circulation was restored. Included
+    in the outcome evaluation were 91 digits in the 87 patients (mean age, 35 years;
+    range, 14-54) who returned for outcome assessments 12 months after surgery. RESULTS:
+    Of 120 digits replanted, 115 digits survived, corresponding to an overall success
+    rate of 96%. No patients received alternative means to alleviate venous congestion,
+    such as leeches or other means of external bleeding. Nearly all of the 87 patients
+    (91 digits) were satisfied with the results of the replantations. CONCLUSIONS:
+    Our technique reconstructs circulation without vein anastomosis in zone I replantation.
+    This alternative to venous congestion involves a simple surgical procedure and
+    straightforward postoperative care. Follow-up assessments of a series of 120 replantations
+    show that the majority of zone I replantations led to satisfactory function. We
+    therefore propose this technique as an effective method for zone I replantation.
+    TYPE OF STUDY/LEVEL OF EVIDENCE: Therapeutic IV.'
+  abstract_retrieved: true
+  source: gold_standard_validated
+- ref_id: 12
+  pmid: 19274650
+  citation_short: Yan et al., 2009
+  citation_full: 'Yan H, Jackson WD, Songcharoen S, Akdemir O, Li Z, Chen X, Jiang
+    L, Gao W. Vein grafting in fingertip replantations.. Microsurgery. 2009. PMID:
+    19274650. DOI: 10.1002/micr.20614'
+  title: Vein grafting in fingertip replantations.
+  journal: Microsurgery
+  year: 2009
+  authors: Yan H, Jackson WD, Songcharoen S, Akdemir O, Li Z, Chen X, Jiang L, Gao
+    W
+  doi: 10.1002/micr.20614
+  abstract: In this retrospective study, the survival rates of fingertip replantation
+    with and without vein grafting were evaluated along with their postoperative functional
+    and cosmetic results. One hundred twenty-one-fingertip amputations were performed
+    in 103 patients between September 2002 and July 2007. Thirty-four amputated fingertips
+    were replanted without vein grafting, while 87 amputated fingertips were replanted
+    with vein grafting for arterial and/or venous repairs. The overall survival rates
+    of the replantations with and without vein grafting were 90% (78/87) and 85% (29/34),
+    respectively. The survival rates were 88% (36/41) with venous repair, 93% (25/27)
+    with arterial repair, and 89% (17/19) with both. Nineteen patients without vein
+    grafting and 48 patients with vein grafting had a follow-up period of more than
+    one year. Good cosmetic and functional outcomes were observed in both groups of
+    patients. The results show that vein grafting is a reliable technique in fingertip
+    replantations, showing no significant difference (P > 0.05) in survival between
+    those with and without vein grafting. Furthermore, no significant difference (P
+    > 0.05) in survival was found between cases with vein grafts for arterial and/or
+    venous repairs. In fingertip replantations with vein grafting, favorable functional
+    and esthetic results can be achieved without sacrificing replantation survival.
+  abstract_retrieved: true
+  source: gold_standard_validated
+- ref_id: 13
+  pmid: 19598314
+  citation_short: Hasuo et al., 2009
+  citation_full: 'Hasuo T, Nishi G, Tsuchiya D, Otsuka T. Fingertip replantations:
+    importance of venous anastomosis and the clinical results.. Hand Surg. 2009. PMID:
+    19598314. DOI: 10.1142/S0218810409004177'
+  title: 'Fingertip replantations: importance of venous anastomosis and the clinical
+    results.'
+  journal: Hand Surg
+  year: 2009
+  authors: Hasuo T, Nishi G, Tsuchiya D, Otsuka T
+  doi: 10.1142/S0218810409004177
+  abstract: Overall survival rate for 143 digits with complete amputation of the distal
+    phalanx was 78%. Replanted digits that underwent venous anastomosis showed a very
+    high survival rate of 93%. Loss of the distal interphalangeal joint function in
+    subzone IV was significantly inferior to that in subzones II and III. Protective
+    sensation was achieved in 96% of replanted digits. Sensory recovery in the absence
+    of nerve repair was significantly worse for avulsion injury than for crush injury.
+    Nail deformity tended to be increased for replanted digits in subzone III or with
+    crush-type injury. Successful venous anastomosis appears to offer the best way
+    to promote survival of replanted digits. If venous anastomosis is infeasible,
+    a replanted digit can survive with any methods for venous drainage in subzones
+    II and III, but does not survive in subzone IV. To minimise nail deformity, repair
+    of the germinal matrix is necessary.
+  abstract_retrieved: true
+  source: gold_standard_validated
+- ref_id: 14
+  pmid: 20641096
+  citation_short: Shi et al., 2010
+  citation_full: 'Shi D, Qi J, Li D, Zhu L, Jin W, Cai D. Fingertip replantation at
+    or beyond the nail base in children.. Microsurgery. 2010. PMID: 20641096. DOI:
+    10.1002/micr.20743'
+  title: Fingertip replantation at or beyond the nail base in children.
+  journal: Microsurgery
+  year: 2010
+  authors: Shi D, Qi J, Li D, Zhu L, Jin W, Cai D
+  doi: 10.1002/micr.20743
+  abstract: Although success of digital replantations in children has been reported
+    by many authors, the very distal fingertip replantation remains technically demanding.
+    The aim of this article is to review our experience with fingertip replantations
+    at or distal to the nail base in pediatric patients and evaluate the clinical
+    outcomes. From October 2000 to May 2007, 12 pediatric fingertips amputated at
+    or distal to the nail base were replanted. Only one artery was anastomosed for
+    revascularization with or without nerve repair; vein drainage was provided by
+    the controlled bleeding technique. Eleven of the 12 replants (91%) survived; one
+    replant of crushed digit failed. An average of 26 month (range, 6 to 36 months)
+    follow-up revealed excellent restoration of finger motion and appearance. The
+    regained static 2-point discrimination (S2PD) sensation was from 3.2 to 5.0 mm
+    (mean, 4.2 mm). Both the parents and the children were satisfied with the final
+    results. In conclusion, fingertip replantation in children allows good functional
+    and esthetical recovery and should be attempted if technically feasible.
+  abstract_retrieved: true
+  source: gold_standard_validated
+- ref_id: 15
+  pmid: 20733365
+  citation_short: Ito et al., 2010
+  citation_full: 'Ito H, Sasaki K, Morioka K, Nozaki M. Fingertip amputation salvage
+    on arterial anastomosis alone: an investigation of its limitations.. Ann Plast
+    Surg. 2010. PMID: 20733365. DOI: 10.1097/SAP.0b013e3181cc0021'
+  title: 'Fingertip amputation salvage on arterial anastomosis alone: an investigation
+    of its limitations.'
+  journal: Ann Plast Surg
+  year: 2010
+  authors: Ito H, Sasaki K, Morioka K, Nozaki M
+  doi: 10.1097/SAP.0b013e3181cc0021
+  abstract: 'BACKGROUND: We have previously reported the importance of adequate and
+    precise arterial anastomosis and the hypothesis that, up to subzone III, fingertip
+    amputation salvage can be achieved on arterial anastomosis alone. These findings
+    were reported during the meeting of the Japanese Society of Reconstructive Microsurgery.
+    This is our follow-up report with insight and opinion on the limitations of complete
+    fingertip amputation salvage on arterial anastomosis alone. METHODS: We examined
+    67 fingers (59 patients) with fingertip amputations presenting to our hospital
+    between January 2005 and December 2008. Amputation levels and whether these injuries
+    received only arterial or both arterial and venous anastomoses were noted. Fisher
+    exact test was used to examine statistical differences between the groups. RESULTS:
+    Amputation levels were 11 in subzone I, 20 in subzone II, 17 in subzone III, and
+    19 in subzone IV. Successful replantation was achieved in 87% (58 of 67) of fingers.
+    There was no statistically significant difference between fingers receiving arterial
+    alone versus both anastomoses in amputations of subzones I, II, and III. CONCLUSIONS:
+    We found that with proper postoperative congestion care, no statistically significant
+    difference in replantation success of fingers receiving arterial anastomosis alone
+    versus both arterial and venous were noted up to subzone III. However, in subzone
+    IV, regardless of the postoperative congestion, compete necrosis rates are high;
+    thus, it is speculated that a venous anastomosis is necessary for successful replantation.
+    It is preferable to perform as many anastomoses as possible, but we believe that
+    it is also desirable for the procedure to be fast and less invasive. In cases
+    that have no adequate vein, fingertip replantation can be achieved on arterial
+    anastomosis alone up to subzone III.'
+  abstract_retrieved: true
+  source: gold_standard_validated
+- ref_id: 16
+  pmid: 2075814
+  citation_short: De, 1990
+  citation_full: 'De Smet. Digital reimplantation at the level of the distal interphalangeal
+    joint and the distal phalanx: a good indication.. Acta Orthop Belg. 1990. PMID:
+    2075814'
+  title: 'Digital reimplantation at the level of the distal interphalangeal joint
+    and the distal phalanx: a good indication.'
+  journal: Acta Orthop Belg
+  year: 1990
+  authors: De Smet
+  doi: null
+  abstract: Ten reimplantations at the level of the distal interphalangeal joint (DIP)
+    or the terminal phalanx were reviewed. The cosmetic results were excellent, the
+    recuperation of sensibility was only partial, and the duration of work incapacity
+    was about 10 weeks.
+  abstract_retrieved: true
+  source: gold_standard_validated
+- ref_id: 17
+  pmid: 20807626
+  citation_short: Buntic et al., 2010
+  citation_full: 'Buntic RF, Brooks D. Standardized protocol for artery-only fingertip
+    replantation.. J Hand Surg Am. 2010. PMID: 20807626. DOI: 10.1016/j.jhsa.2010.06.004'
+  title: Standardized protocol for artery-only fingertip replantation.
+  journal: J Hand Surg Am
+  year: 2010
+  authors: Buntic RF, Brooks D
+  doi: 10.1016/j.jhsa.2010.06.004
+  abstract: 'PURPOSE: Artery-only fingertip replantation can be reliable if low-resistance
+    flow through the replant is maintained until venous outflow is restored naturally.
+    Injuring the tip of the replant to promote ongoing bleeding augmented with anticoagulation
+    usually accomplishes this; however, such management results in prolonged hospitalization.
+    In this study, we analyzed the outcomes of artery-only fingertip replantation
+    using a standardized postoperative protocol consisting of dextran-40, heparin,
+    and leech therapy. METHODS: Between 2001 and 2008, we performed 19 artery-only
+    fingertip replants for 17 patients. All patients had the replanted nail plate
+    removed and received intravenous dextran-40, heparin, and aspirin to promote fingertip
+    bleeding and vascular outflow. Anticoagulation was titrated to promote a controlled
+    bleed until physiologic venous outflow was restored by neovascularization. We
+    used medicinal leeches and mechanical heparin scrubbing for acute decongestion.
+    By postoperative day 6, bleeding was no longer promoted. We initiated fluorescent
+    dye perfusion studies to assess circulatory competence and direct further anticoagulant
+    intervention if necessary. The absence of bleeding associated with an initial
+    rise followed by an appropriate fall in fluorescent dye concentration would trigger
+    a weaning of anticoagulation. RESULTS: All of the 19 replants survived. The average
+    length of hospital stay was 9 days (range, 7-17 d). Eleven patients received blood
+    transfusions. The average transfusion was 1.8 units (range, 0-9 units). All patients
+    were happy with the decision to replant, and the cosmetic result. CONCLUSIONS:
+    A protocol that promotes temporary, controlled bleeding from the fingertip is
+    protective of artery-only replants distal to the distal interphalangeal joint
+    until physiologic venous outflow is restored. The protocol described is both safe
+    and reliable. The patient should be informed that such replant attempts may result
+    in the need for transfusions and extended hospital stays, factors that can help
+    the physician and patient decide whether to proceed with replantation. TYPE OF
+    STUDY/LEVEL OF EVIDENCE: Therapeutic IV.'
+  abstract_retrieved: true
+  source: gold_standard_validated
+- ref_id: 18
+  pmid: 21124144
+  citation_short: Hsu et al., 2010
+  citation_full: 'Hsu CC, Lin YT, Moran SL, Lin CH, Wei FC, Lin CH. Arterial and venous
+    revascularization with bifurcation of a single central artery: a reliable strategy
+    for Tamai Zone I replantation.. Plast Reconstr Surg. 2010. PMID: 21124144. DOI:
+    10.1097/PRS.0b013e3181f44973'
+  title: 'Arterial and venous revascularization with bifurcation of a single central
+    artery: a reliable strategy for Tamai Zone I replantation.'
+  journal: Plast Reconstr Surg
+  year: 2010
+  authors: Hsu CC, Lin YT, Moran SL, Lin CH, Wei FC, Lin CH
+  doi: 10.1097/PRS.0b013e3181f44973
+  abstract: 'BACKGROUND: Replantation of the distal phalanx and pulp can be performed
+    to improve finger function and finger aesthetics; however, establishing adequate
+    venous drainage is a challenge. Slattery et al. reported microsurgical reattachment
+    of a partial distal phalanx with the use of a bifurcated terminal digital artery.
+    The bifurcation was divided into two pedicles, one of which was used for venous
+    drainage. In this article, the authors report their experience with a similar
+    technique and propose a new algorithm for distal finger replantation. METHODS:
+    From January of 2008 to February of 2009, five replantations were performed using
+    a single central artery. The replanted levels were pulp, avulsed fingertip of
+    the thumb, and distal phalanges. There was no volar vein, dorsal vein, or second
+    artery available in the amputated part for standard venous drainage. Venous drainage
+    in all cases was established by creating an anastomosis from a branch of the solitary
+    terminal artery to a recipient vein. RESULTS: All digits were replanted successfully
+    without evidence of arterial insufficiency or venous congestion. Partial necrosis
+    was not identified postoperatively in any of the five fingers. There were no cases
+    of wound infection. CONCLUSIONS: A branch of the central solitary artery may be
+    used successfully to reestablish venous outflow in cases of distal finger tip
+    replantation. This technique allowed for the salvage of all fingers in this study
+    without the use of leeches or other techniques used in cases of venous insufficiency.'
+  abstract_retrieved: true
+  source: gold_standard_validated
+- ref_id: 19
+  pmid: 2649545
+  citation_short: Goldner et al., 1989
+  citation_full: 'Goldner RD, Stevanovic MV, Nunley JA, Urbaniak JR. Digital replantation
+    at the level of the distal interphalangeal joint and the distal phalanx.. J Hand
+    Surg Am. 1989. PMID: 2649545. DOI: 10.1016/0363-5023(89)90009-9'
+  title: Digital replantation at the level of the distal interphalangeal joint and
+    the distal phalanx.
+  journal: J Hand Surg Am
+  year: 1989
+  authors: Goldner RD, Stevanovic MV, Nunley JA, Urbaniak JR
+  doi: 10.1016/0363-5023(89)90009-9
+  abstract: Forty-two complete, single digit amputations at the level of the distal
+    interphalangeal joint or distal phalanx are reviewed. Viability was 81%. Operative
+    time averaged 4.6 hours. Average age of patients was 28 years and 90% were male.
+    Forty-eight percent of the amputations involved the thumb; 79% were at the distal
+    interphalangeal joint and 21% were more distal. One artery was repaired in 64%
+    of replantations, two or three veins were repaired in 61%, and veins grafts were
+    used in 19% of cases. Sixty-nine percent of the crush-avulsion injuries succeeded
+    compared with 89% of lacerations. Two-point discrimination averaged 10 mm and
+    proximal interphalangeal motion averaged 91 degrees. Patients returned to work
+    an average of 2.5 months after replantation and none required additional procedures.
+    The average total cost of treatment was $7500.00. Compared with conventional procedures,
+    disadvantages of replantation at or distal to the distal interphalangeal joint
+    are that it does require microsurgical training, initial operating time is longer,
+    and it is more expensive. Advantages are that it is a one-stage procedure that
+    gives good distal soft tissue coverage, adequate sensibility without painful neuroma,
+    good metacarpophalangeal and proximal interphalangeal joint motion; it preserves
+    the nail, maintains digit length, is cosmetically pleasing, and the patient is
+    satisfied.
+  abstract_retrieved: true
+  source: gold_standard_validated
+- ref_id: 20
+  pmid: 3656253
+  citation_short: Suzuki et al., 1987
+  citation_full: 'Suzuki K, Matsuda M. Digital replantations distal to the distal
+    interphalangeal joint.. J Reconstr Microsurg. 1987. PMID: 3656253. DOI: 10.1055/s-2007-1006998'
+  title: Digital replantations distal to the distal interphalangeal joint.
+  journal: J Reconstr Microsurg
+  year: 1987
+  authors: Suzuki K, Matsuda M
+  doi: 10.1055/s-2007-1006998
+  abstract: Microvascular replantations of digits distal to the distal interphalangeal
+    (DIP) joint were reviewed in 33 digits of 29 patients. Twenty-five digits were
+    completely amputated and eight were incompletely amputated. Ten of 33 replants
+    failed and 23 digits survived. Even without venous reconstruction, good results
+    were obtained in Zone I. Of eight completely amputated digits in Zone 1 in which
+    venous reconstruction was not performed, seven digits survived. Of four completely
+    amputated digits in Zone 2 without venous reconstruction, all became necrotic.
+    In digits followed for six months or more after surgery, 11 of 13 replantations
+    showed good functional recovery. Two digits that developed paresthesia after replantation
+    were functionally useless. Seven digits without bilateral digital nerve reconstruction
+    were reviewed six months or more after surgery. Sensory recovery was good in the
+    digital phalanx; the factor impeding functional recovery was the development of
+    paresthesia. Replanted digits distal to the DIP joint are thus satisfactory in
+    both function and cosmesis, even if digital nerves have not been reconstructed.
+    The replantation of such digits should be considered.
+  abstract_retrieved: true
+  source: gold_standard_validated
+- ref_id: 21
+  pmid: 3880195
+  citation_short: Cheng et al., 1985
+  citation_full: 'Cheng GL, Pan DD, Yang ZX, Qu ZY. Replantation of digits amputated
+    at or about the distal interphalangeal joint.. Ann Plast Surg. 1985. PMID: 3880195.
+    DOI: 10.1097/00000637-198512000-00003'
+  title: Replantation of digits amputated at or about the distal interphalangeal joint.
+  journal: Ann Plast Surg
+  year: 1985
+  authors: Cheng GL, Pan DD, Yang ZX, Qu ZY
+  doi: 10.1097/00000637-198512000-00003
+  abstract: Sixty-four digits amputated at or distal to the distal interphalangeal
+    joint were reimplanted in 57 patients with the use of microsurgical techniques.
+    Five patients were children under 3 years of age. The percentage of survival was
+    96.9%. Before the operation, the surgical anatomy of the amputated digits was
+    studied and particular attention was focused on the microvasculature. Equal emphasis
+    was given to the reinnervation and revascularization of the amputated digits.
+  abstract_retrieved: true
+  source: gold_standard_validated
+- ref_id: 22
+  pmid: 3998416
+  citation_short: Gordon et al., 1985
+  citation_full: 'Gordon L, Leitner DW, Buncke HJ, Alpert BS. Partial nail plate removal
+    after digital replantation as an alternative method of venous drainage.. J Hand
+    Surg Am. 1985. PMID: 3998416. DOI: 10.1016/s0363-5023(85)80035-6'
+  title: Partial nail plate removal after digital replantation as an alternative method
+    of venous drainage.
+  journal: J Hand Surg Am
+  year: 1985
+  authors: Gordon L, Leitner DW, Buncke HJ, Alpert BS
+  doi: 10.1016/s0363-5023(85)80035-6
+  abstract: Partial nail plate removal, systemic anticoagulation, and the application
+    of topical heparin to the exposed nail bed were used to provide and maintain venous
+    drainage for 14 digital replantations in which an arterial repair but no venous
+    repair was done ("artery only" replantation). In each case venous repair was not
+    possible since no vein of an acceptable size could be found either because of
+    a distal amputation level or because an avulsive or crushing injury had damaged
+    the veins in the amputated part. The average operating time per "artery only"
+    replantation was 2 1/2 hours. Ten of the 14 "artery only" replantations survived
+    (71.4%). The active range of motion, sensibility, strength, activities of daily
+    living, and hospitalization for this group of patients were comparable with replantations
+    in which both arterial and venous anastomoses were done.
+  abstract_retrieved: true
+  source: gold_standard_validated
+- ref_id: 23
+  pmid: 7968468
+  citation_short: Ikeda et al., 1994
+  citation_full: 'Ikeda K, Morikawa S, Hashimoto F, Tomita K. Fingertip replantation:
+    pre-osteosynthesis vein graft technique.. Microsurgery. 1994. PMID: 7968468. DOI:
+    10.1002/micr.1920150612'
+  title: 'Fingertip replantation: pre-osteosynthesis vein graft technique.'
+  journal: Microsurgery
+  year: 1994
+  authors: Ikeda K, Morikawa S, Hashimoto F, Tomita K
+  doi: 10.1002/micr.1920150612
+  abstract: Since 1985 we have been performing replantation of amputated fingertips
+    using a pre-osteosynthesis vein graft technique. First, we locate an artery and
+    vein at the distal part of the fingertip and perform a vein graft. After this,
+    we perform osteosynthesis. Since there is sufficient vessel length, the anastomosis
+    technique becomes easier than with the method previously used. In our department,
+    between 1985 and 1990 we performed 11 Zone I replantations. Ten fingers survived
+    and one failed. There were good results in seven cases and three had fair results.
+    The pre-osteosynthesis vein graft technique is a reliable technique for amputated
+    fingertip replantation.
+  abstract_retrieved: true
+  source: gold_standard_validated
+- ref_id: 24
+  pmid: 7968475
+  citation_short: Malizos et al., 1994
+  citation_full: 'Malizos KN, Beris AE, Kabani CT, Korobilias AB, Mavrodontidis AN,
+    Soucacos PN. Distal phalanx microsurgical replantation.. Microsurgery. 1994. PMID:
+    7968475. DOI: 10.1002/micr.1920150706'
+  title: Distal phalanx microsurgical replantation.
+  journal: Microsurgery
+  year: 1994
+  authors: Malizos KN, Beris AE, Kabani CT, Korobilias AB, Mavrodontidis AN, Soucacos
+    PN
+  doi: 10.1002/micr.1920150706
+  abstract: Replantation of a completely amputated part of the distal phalanx, which
+    has a very small vessel size, has been reported by several authors with a varying
+    rate of success. Drainage through venous anastomosis is not always possible. In
+    12 completely amputated fingers, at the level of, or more distal to, the distal
+    interphalangeal joint, we attempted microsurgical replantation with a successful
+    outcome in ten cases. Seven digits had one or two veins anastomosed. In five digits,
+    an adequate size vein was not found, and the drainage was accomplished with provoked
+    bleeding which was maintained for the 3 postoperative days at the expense of blood
+    transfusion. In all successful cases the patients returned to their occupation
+    in a mean of 9 weeks with very good or excellent functional results.
+  abstract_retrieved: true
+  source: gold_standard_validated
+- ref_id: 25
+  pmid: 8133774
+  citation_short: Chen et al., 1994
+  citation_full: 'Chen CT, Wei FC, Chen HC, Chuang CC, Chen HT, Hsu WM. Distal phalanx
+    replantation.. Microsurgery. 1994. PMID: 8133774. DOI: 10.1002/micr.1920150118'
+  title: Distal phalanx replantation.
+  journal: Microsurgery
+  year: 1994
+  authors: Chen CT, Wei FC, Chen HC, Chuang CC, Chen HT, Hsu WM
+  doi: 10.1002/micr.1920150118
+  abstract: Microsurgical replantation has been attempted in the distal phalanx of
+    the digits. Twenty-three complete, single digit amputations are reviewed. The
+    patients' ages ranged from 9 months to 48 years. Viability was 78%. Sensory recovery
+    averaged 7 mm static two-point discrimination. Range of motion in the distal interphalangeal
+    joint of the finger and the interphalangeal joint of the thumb averaged 64 and
+    51 degrees, respectively. Eight of the 17 successfully replanted digits had mild
+    to moderate atrophy. Eighty-two percent of patients were able to use the replanted
+    digit successfully in their daily work. We feel that distal digital replantation
+    is rewarding. In successful cases, it always preserves acceptable function and
+    good appearance at a price of an average of 2.3 months off work.
+  abstract_retrieved: true
+  source: gold_standard_validated
+- ref_id: 26
+  pmid: 8501361
+  citation_short: Yamano, 1993
+  citation_full: 'Yamano Y. Replantation of fingertips.. J Hand Surg Br. 1993. PMID:
+    8501361. DOI: 10.1016/0266-7681(93)90095-w'
+  title: Replantation of fingertips.
+  journal: J Hand Surg Br
+  year: 1993
+  authors: Yamano Y
+  doi: 10.1016/0266-7681(93)90095-w
+  abstract: During the period between 1976 and 1990, 207 fingertips have been replanted
+    in 133 male and 55 female patients whose ages ranged from 14 months to 80 years,
+    with an average of 32.7 years. Of the 207 fingers with complete amputation, 131
+    were injured in zone 1 and 76 in zone 2. The minimum follow-up period was 6 months.
+    The results of zone 1 amputation have been analyzed according to the type of injury.
+    The survival rate was 100% in clean-cut amputation, 95% in blunt-cut, 64.3% in
+    crush and 65.5% in avulsion. From the point of view of survival and function,
+    satisfactory results were obtained in amputations in zone 2, and in all cases
+    in zone 1 that were clean-cut or blunt-cut.
+  abstract_retrieved: true
+  source: gold_standard_validated
+- ref_id: 27
+  pmid: 8700984
+  citation_short: Kim et al., 1996
+  citation_full: 'Kim WK, Lim JH, Han SK. Fingertip replantations: clinical evaluation
+    of 135 digits.. Plast Reconstr Surg. 1996. PMID: 8700984. DOI: 10.1097/00006534-199609000-00017'
+  title: 'Fingertip replantations: clinical evaluation of 135 digits.'
+  journal: Plast Reconstr Surg
+  year: 1996
+  authors: Kim WK, Lim JH, Han SK
+  doi: 10.1097/00006534-199609000-00017
+  abstract: From July 1985 to February 1993, 135 digits in 119 patients with complete
+    amputations at or distal to the distal interphalangeal joint (zone I for amputations
+    distal to the nail base of zone II for amputations between the distal interphalangeal
+    joint and the nail base) were replanted using a microsurgical technique at Korea
+    University Guro Hospital. Because of the high social value placed on body form
+    and function, the indication for replantation was extended to cases with severe
+    soft-tissue injuries and attempted replantation as a routine procedure in nearly
+    all distal amputation cases. The overall survival rate was 78 percent, with the
+    survival rate for zone I being 70 percent and that for zone II reaching 86 percent.
+    Even in cases with severe soft-tissue injury, the survival rate was high, with
+    viability in avulsion injuries and crush injuries reaching 75 percent each. The
+    most common type of vascular repair in zone I cases was revascularization of one
+    artery only and no vein repair (87 percent). Of these cases, interpositional vein
+    grafts were used in 65 percent. In zone II cases, the most common combination
+    repair was one artery and one vein anastomosis (70 percent), with interpositional
+    vein grafts for arterial anastomosis in 49 percent; most of the venous repair
+    was feasible by the direct method (78 percent). The follow-up period ranged from
+    1 month to 5 years with a mean of 14.8 months; 52 patients were followed-up for
+    more than 6 months. In 52 long-term follow-up patients, the average two-point
+    discrimination was 8 mm. Patient satisfaction, aesthetically and functionally,
+    was high (91 percent).
+  abstract_retrieved: true
+  source: gold_standard_validated
+- ref_id: 28
+  pmid: 9043584
+  citation_short: Hirase, 1997
+  citation_full: 'Hirase Y. Salvage of fingertip amputated at nail level: new surgical
+    principles and treatments.. Ann Plast Surg. 1997. PMID: 9043584. DOI: 10.1097/00000637-199702000-00009'
+  title: 'Salvage of fingertip amputated at nail level: new surgical principles and
+    treatments.'
+  journal: Ann Plast Surg
+  year: 1997
+  authors: Hirase Y
+  doi: 10.1097/00000637-199702000-00009
+  abstract: In this study, a new classification of fingertip amputation based on the
+    surgical treatment is reported. Specifically, the necessity for special procedures
+    to prevent venous congestion in fingertip replantation at the nail bed level was
+    studied. There are some reports of successful replantations without venous anastomoses.
+    In order to avoid technical factors, clinical cases operated on by a single surgeon
+    were evaluated to determine what treatment is necessary for amputations at various
+    levels to avoid necrosis due to venous congestion. During the 5-year period from
+    October 1987 to October 1992, 150 replantations in 137 patients were performed,
+    including 49 fingertip replantations in 45 patients who were operated on consecutively
+    by a single surgeon. The distal phalanx (DP) of the finger was classified as zone
+    DP-I, IIA, IIB, and III from distal to proximal. This classification was based
+    not only on the amputation level but also on the difference in surgical treatment.
+    For amputations of zone DP-I, which extends from the fingertip to the most distal
+    dividing point of the digital artery, the amputated fingertip is attached without
+    vascular anastomosis and the whole finger is wrapped in aluminium foil and cooled
+    in ice water for 3 days. For amputations of zone DP-IIA and IIB, anastomosis of
+    the digital artery is performed in the central portion of the palmar region of
+    the finger, but Kirschner wire fixation is not performed so as not to disturb
+    the venous drainage through the medullary cavity. For amputations of zone DP-IIA,
+    special treatment is not necessary for venous congestion, and for those of zone
+    DP-IIB partial resection of the nail is done if necessary. For zone DP-II amputations,
+    venous anastomosis must be performed for salvage. All patients were operated on
+    according to the procedures based on this classification and final survival rate
+    was 91.5%.
+  abstract_retrieved: true
+  source: gold_standard_validated
+- ref_id: 29
+  pmid: 9222916
+  citation_short: Dubert et al., 1997
+  citation_full: 'Dubert T, Houimli S, Valenti P, Dinh A. Very distal finger amputations:
+    replantation or "reposition-flap" repair?. J Hand Surg Br. 1997. PMID: 9222916.
+    DOI: 10.1016/s0266-7681(97)80401-9'
+  title: 'Very distal finger amputations: replantation or "reposition-flap" repair?'
+  journal: J Hand Surg Br
+  year: 1997
+  authors: Dubert T, Houimli S, Valenti P, Dinh A
+  doi: 10.1016/s0266-7681(97)80401-9
+  abstract: 'Management of very distal finger amputations is still controversial.
+    Successful replantation results in an almost normal finger but is not without
+    problems, such as technical difficulty, risk of failure and cost. "Reposition-flap"
+    repair is a simpler procedure: it consists of distal bone and nail bed "graft-reposition"
+    and pulp reconstruction by a flap. We compare ten successful replantations and
+    six reposition-flap reconstructions. Replantation has several advantages over
+    reposition-flap repair in terms of less finger shortening, longitudinal nail curvature,
+    absence of PIP flexion contracture and shorter time off work. The results of reposition-flap
+    repair are less satisfactory, but it is nevertheless a useful alternative when
+    replantation is impossible or has failed.'
+  abstract_retrieved: true
+  source: gold_standard_validated
+- ref_id: 30
+  pmid: 9821597
+  citation_short: Patradul et al., 1998
+  citation_full: 'Patradul A, Ngarmukos C, Parkpian V. Distal digital replantations
+    and revascularizations. 237 digits in 192 patients.. J Hand Surg Br. 1998. PMID:
+    9821597. DOI: 10.1016/s0266-7681(98)80005-3'
+  title: Distal digital replantations and revascularizations. 237 digits in 192 patients.
+  journal: J Hand Surg Br
+  year: 1998
+  authors: Patradul A, Ngarmukos C, Parkpian V
+  doi: 10.1016/s0266-7681(98)80005-3
+  abstract: Since January 1990, 237 replantations or revascularizations have been
+    attempted in 192 patients with distal traumatic amputations of the digits. The
+    amputations were complete in 182 digits and incomplete in 55 digits. Sixty-three
+    amputations were in zone I and 174 in zone II (Tamai's classification). The overall
+    success rate was 91%. Twelve digits failed in zone I and ten in zone II. We conclude
+    that zone I and zone II replantation or revascularization is quick and worthwhile,
+    providing acceptable sensation, appearance and near-normal function.
+  abstract_retrieved: true
+  source: gold_standard_validated
+papers_not_in_pubmed: []
+pmid_list_sorted:
+- 1546084
+- 1596659
+- 2075814
+- 2649545
+- 3656253
+- 3880195
+- 3998416
+- 7968468
+- 7968475
+- 8133774
+- 8501361
+- 8700984
+- 9043584
+- 9222916
+- 9821597
+- 11405359
+- 12621185
+- 14707643
+- 15385770
+- 15622245
+- 16894484
+- 18683863
+- 18766047
+- 18984343
+- 19274650
+- 19598314
+- 20641096
+- 20733365
+- 20807626
+- 21124144

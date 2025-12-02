@@ -1,0 +1,126 @@
+# Sebastin 2011 Screening Configuration - REFINED FOR SPECIFICITY
+# Goal: Reduce false positives while maintaining 100% recall
+# Approach: Objective quality filters (PRISMA-based, no validation set overfitting)
+
+dataset:
+  path: data/validation/systematic_reviews/sebastin_2011/verified_pmids_complete.yaml
+  format: yaml  # Gold standard validated dataset
+  id_column: pmid
+  title_column: title
+  abstract_column: abstract
+  source: gold_standard  # 100% validated PMIDs with abstracts
+  limit: 30
+
+llm:
+  provider: openai
+  model: gpt-4.1-mini
+  temperature: 0.0
+  max_tokens: 2048
+
+output:
+  path: outputs/screening/sebastin_refined_results.jsonl
+  format: jsonl
+  overwrite: true
+
+runtime:
+  review_id: sebastin_2011_refined
+  max_concurrency: 3
+
+# Database source
+search_session: 14
+
+# Three-stage workflow configuration
+three_stage: true
+stage2_model: gpt-4.1
+stage3_model: o3-mini
+stage3_threshold: 0.6
+
+criteria:
+  inclusion:
+    - "Primary research study where distal digital replantation (DIP joint or more distal) is the MAIN FOCUS, not incidentally mentioned. Title or abstract should clearly indicate this is a dedicated study on distal-level replantation outcomes."
+
+    - "English language publication"
+
+    - "Reports distal replantations at or distal to the distal interphalangeal (DIP) joint. The DIP joint level itself is INCLUDED in the distal definition (boundary inclusive)."
+
+    - "Reports QUANTITATIVE survival, viability, or outcome data specifically for distal replantations. Must include specific numbers such as percentages (e.g., 81%), fractions (e.g., 12 of 15), counts (e.g., N=42 survived), or rates. Exclude vague qualitative statements like 'good outcomes' or 'generally successful'."
+
+    - "Reports outcomes from ≥5 distal digital replantations. The threshold is INCLUSIVE - exactly N=5 qualifies. Count DISTAL cases specifically, not total digital replantations at all levels."
+
+    - "If study includes mixed anatomical levels (both proximal and distal replantations), must report distal-specific outcomes SEPARATELY from proximal cases. Studies reporting only aggregate outcomes for mixed levels should be excluded as data is not extractable."
+
+  exclusion:
+    - "Animal studies or cadaver studies (not human patients)"
+
+    - "Review articles (systematic reviews, meta-analyses, literature reviews, scoping reviews), editorials, commentaries, letters to editor, or surgical technique descriptions without original outcome data. Check title for 'review' keywords and abstract for phrases like 'we reviewed the literature' or 'studies were identified'."
+
+    - "Case reports presenting single anecdotal cases without systematic data collection, or case series with fewer than 5 distal replantations (even if total replantations across all levels exceeds 5)"
+
+    - "Studies focusing on incomplete amputations, partial amputations, or revascularization procedures without complete amputation"
+
+    - "Unclear injury diagnosis where total amputation cannot be distinguished from incomplete amputation or avulsion injuries"
+
+    - "Unclear procedure reporting where replantation outcomes cannot be separated from revascularization outcomes"
+
+    - "Studies reporting only successful cases (selection bias) without denominators or failure rates"
+
+    - "Studies where distal replantation is mentioned only as part of a broader hand surgery, digital trauma, or general microsurgery topic. The study's primary objective must be to evaluate distal replantation outcomes, not to mention them in passing."
+
+    - "Studies that cite survival data from other published papers (secondary sources) rather than reporting original outcome data from the authors' own patient series"
+
+  special_instructions: |
+    OBJECTIVE QUALITY FILTERS (PRISMA-based, generalizable):
+
+    1. PRIMARY FOCUS TEST (objective textual signals):
+       - Title check: Does title mention "distal phalanx" OR "fingertip" OR "DIP joint" OR "distal interphalangeal" OR "Zone I/II replantation"?
+       - Abstract analysis: Count sentences discussing distal replantation outcomes. If <50% of abstract content, likely incidental mention.
+       - Study objective: Does abstract state objective is to evaluate distal replantation outcomes?
+
+       INCLUDE examples:
+       - "Outcomes of fingertip replantation at the DIP joint level"
+       - "Results of distal phalanx microsurgical replantation"
+
+       EXCLUDE examples:
+       - "Digital replantation" (too broad, doesn't specify distal)
+       - "Hand trauma outcomes" (too general, distal might be minor component)
+
+    2. QUANTITATIVE DATA REQUIREMENT (objective):
+       Must contain at least ONE of:
+       - Specific percentage: "survival rate 81%", "viability 85%"
+       - Fraction with denominator: "12 of 15 survived", "42 of 50 viable"
+       - Count with sample size: "N=40 digits, 32 survived"
+       - Statistical measure: "mean survival 78% (95% CI: 65-92%)"
+
+       EXCLUDE if only:
+       - Qualitative: "good outcomes", "favorable results", "generally successful", "most survived"
+       - Citations: "survival rates of 80-90% have been reported" (secondary source, not original data)
+       - Vague: "outcomes were satisfactory", "results were acceptable"
+
+    3. SAMPLE SIZE VERIFICATION (objective counting):
+       - Count DISTAL cases mentioned, not total digital replantations
+       - "150 digital replantations" without distal-specific count → assume <5 distal unless stated
+       - "42 distal phalanx amputations" → clear N=42 distal ✓
+       - "15 fingertips including 3 thumbs" → clear N=15 distal ✓
+       - "Zone I and Zone II replantations: N=50" → clear ≥5 distal ✓
+
+    4. MIXED-LEVEL STUDIES (extractability test):
+       - If abstract mentions both proximal AND distal replantations:
+         → Must report outcomes SEPARATELY by level
+       - "Overall survival 85% across all levels" → NOT extractable (reject)
+       - "Zone I survival 88%, Zone II survival 72%" → Extractable (include)
+
+    5. ORIGINAL DATA VS CITATIONS (objective):
+       - INCLUDE: "In our series...", "We observed...", "Our experience with..."
+       - EXCLUDE: "Studies report...", "Literature shows...", "Reported rates of..."
+
+    6. STUDY DESIGN ACCEPTANCE (surgical reviews - objective):
+       - ACCEPT: All observational designs (retrospective, prospective, case series)
+       - ACCEPT: RCTs (if present, though rare in surgery)
+       - DO NOT require: Control groups, prospective design, randomization
+       - Rationale: RCTs unethical/infeasible in surgical procedures
+
+    DECISION PHILOSOPHY:
+    - When ALL objective filters clearly met → INCLUDE (high confidence)
+    - When ≥2 objective filters clearly failed → EXCLUDE (likely false positive)
+    - When 1 filter unclear or borderline → INCLUDE with lower confidence (catches in Stage 2/3)
+    - When criteria ambiguous after objective checks → DEFAULT TO INCLUDE (PRISMA: err on side of inclusion)

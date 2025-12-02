@@ -1,0 +1,108 @@
+# Screening Configuration: arshad_2016_high_recall_generated
+# Generated: 2025-11-27T06:07:54.557864Z
+# Topic: breast cell-assisted lipotransfer outcomes and safety
+# Field Maturity: emerging
+# Philosophy: Abstract screening - High recall (98-100%), Topic-adapted
+# Generator: Enhanced v2.0.0_enhanced
+
+dataset:
+  path: configs/data/validation/systematic_reviews/arshad_2016/arshad_2016_all_references.yaml
+  format: yaml
+  id_column: pmid
+  title_column: title
+  abstract_column: abstract
+  source: gold_standard
+llm:
+  provider: openai
+  model: gpt-4.1-mini
+  temperature: 0.0
+  max_tokens: 2048
+output:
+  path: outputs/screening/arshad_2016_high_recall_generated_results.jsonl
+  format: jsonl
+  overwrite: true
+runtime:
+  review_id: arshad_2016_high_recall_generated
+  max_concurrency: 3
+three_stage: true
+stage2_model: gpt-4.1
+stage3_model: o4-mini
+stage3_threshold: 0.0  # Disabled - papers escalate when confidence < threshold, so 0.0 means none escalate
+criteria:
+  inclusion:
+  - 'Primary research study reporting original data on breast cell-assisted lipotransfer outcomes and safety (synonyms: cell-assisted
+    lipotransfer, cell-assisted lipofilling, cell-enhanced fat grafting). Study''s main objective should involve breast cell-assisted
+    lipotransfer outcomes and safety, though it can be part of a broader series if target outcomes are reported separately.
+
+
+    ACCEPT terminology variations: cell-assisted lipotransfer, cell-assisted lipofilling, cell-enhanced fat grafting, cell-enriched
+    fat grafting, ADSC-enriched fat grafting, SVF-enriched lipotransfer, stromal vascular fraction enrichment.
+
+
+    Commercial systems/devices: Celution, Lipokit/Medikhan, Fatstem, Mystem, GID SVF-1.'
+  - English language publication
+  - "Reports outcomes from \u22651 procedures. The threshold is INCLUSIVE - exactly N=1 qualifies."
+  - 'Reports QUANTITATIVE outcome data with specific numbers: percentages (e.g., 81%), fractions (e.g., 12 of 15), counts
+    (e.g., N=42), or rates. Exclude vague qualitative statements like ''good outcomes'' or ''generally successful''.
+
+
+    HETEROGENEITY TOLERANCE: Accept ALL outcome measures (will be pooled/synthesized). Any measurement method acceptable.'
+  - "Study design: Prospective/retrospective cohort, case-control, case series, or systematic case study (N\u22651) with systematic\
+    \ data collection. RCT not required. Signals include structured methods, defined outcomes, follow-up timing."
+  - "Primary focus on breast CAL (\u226550% of abstract about breast CAL)"
+  - Original clinical human data (female patients, breast indications)
+  - Quantitative safety/efficacy outcomes with denominators
+  - Any breast indication (augmentation, reconstruction, implant complications)
+  - 'Procedure clarity: fat enriched with ADSC/SVF'
+  exclusion:
+  - Review articles (systematic reviews, meta-analyses, literature reviews, scoping reviews), editorials, commentaries, letters
+    to editor, or technique descriptions without original outcome data. Check title for 'review' keywords and abstract for
+    phrases like 'we reviewed the literature'.
+  - Case reports presenting single anecdotal cases, or case series with fewer than 5 procedures
+  - "Studies that EXPLICITLY state they excluded failures or only analyzed successful outcomes.\n\nCLEAR EXCLUSION MARKERS\
+    \ (confident exclude \u22650.90):\n- \"only successful cases were included in our analysis\"\n- \"failures were excluded\
+    \ from the study\"\n- \"we excluded patients with complications\"\n- \"only [procedures] that survived were analyzed\"\
+    \n- \"this study reports only positive outcomes\"\n\nAMBIGUOUS PHRASES (do NOT exclude - include with confidence 0.60-0.75):\n\
+    - \"X successful [procedures]\" (failures might be reported in results section)\n- \"we compared successful cases with...\"\
+    \ (comparison group, not selection bias)\n- \"outcomes of successful procedures\" (if followed by quantitative data)\n\
+    \nDECISION RULE:\n- Explicit exclusion of failures: EXCLUDE (confidence \u22650.90)\n- Ambiguous wording + meets sample\
+    \ size + reports outcomes: INCLUDE (confidence 0.60-0.75)\n- Rationale: Abstract-level screening prioritizes recall; full-text\
+    \ review catches inappropriate inclusions"
+  - Non-human or lab-only work
+  - Plain lipofilling without cell enrichment
+  - PRP-only augmentation
+  - Non-breast indications
+  - Vague outcomes only (no quantitative data)
+  - Mixed populations without separable breast CAL data
+  special_instructions: "ABSTRACT SCREENING METHODOLOGY (PRISMA/Cochrane Standards):\n\n1. RECALL IS PARAMOUNT (Goal: 98-100%):\n\
+    \   - This is abstract-level screening, preceding full-text review\n   - False positives are acceptable (30-60% expected\
+    \ for emerging fields)\n   - False negatives are UNACCEPTABLE (relevant papers lost forever)\n   - When criteria interpretation\
+    \ is ambiguous: INCLUDE for full-text review\n\n2. EXPLICIT VIOLATIONS ONLY:\n   - Exclusion criteria require EXPLICIT\
+    \ statements in abstract\n   - Do NOT exclude based on inferred or implied violations\n   - Example: \"X successful procedures\"\
+    \ \u2260 explicit selection bias\n   - Example: \"only successful cases included\" = explicit selection bias\n\n3. CONFIDENCE\
+    \ CALIBRATION FOR BORDERLINE CASES:\n   - High confidence exclude (\u22650.90): CLEAR, EXPLICIT criteria violations\n\
+    \   - Medium exclude (0.75-0.89): Likely violation but some ambiguity\n   - Borderline include (0.60-0.74): Meets basic\
+    \ requirements but ambiguous \u2192 Full-text review needed\n   - High confidence include (\u22650.90): Clearly meets\
+    \ all inclusion criteria\n\n4. BENEFIT OF DOUBT PRINCIPLE:\n   - Paper meets sample size (\u22655 procedures) + reports\
+    \ quantitative outcomes + topic-relevant?\n   - If YES but other criteria ambiguous: INCLUDE with confidence 0.60-0.75\n\
+    \   - Rationale: Full-text review will make final determination\n\nOBJECTIVE QUALITY FILTERS:\n\n1. PRIMARY FOCUS TEST:\n\
+    \   - Title or abstract indicates breast cell-assisted lipotransfer outcomes and safety is main study objective\n   -\
+    \ Accept if \u226550% of abstract content discusses target topic\n\n   - Terminology signals: \"cell-assisted lipotransfer\"\
+    , \"cell-assisted lipofilling\", \"cell-enhanced fat grafting\", \"cell-enriched fat grafting\", \"ADSC-enriched fat grafting\"\
+    , \"SVF-enriched lipotransfer\", \"stromal vascular fraction enrichment\"\n   - Accept variations and synonyms\n   - Commercial\
+    \ systems/devices: Celution, Lipokit/Medikhan, Fatstem, Mystem, GID SVF-1\n   - Presence of system name indicates relevant\
+    \ procedure\n   - Key textual markers: \"cell enrichment\", \"SVF isolation\", \"ADSC\", \"stromal vascular fraction\"\
+    , \"cell processing system\"\n\n2. QUANTITATIVE DATA TEST:\n   - Must have specific numbers: percentages, fractions, counts,\
+    \ statistical measures\n   - NOT vague terms: \"good outcomes\", \"favorable results\", \"generally successful\"\n   -\
+    \ HETEROGENEITY TOLERANCE: Accept ALL outcome measure types (will be pooled)\n\n3. SAMPLE SIZE VERIFICATION:\n   - Count\
+    \ procedures specifically\n   - Boundary inclusive: \u22655 includes exactly N=5\n\n4. ORIGINAL DATA VS CITATIONS:\n \
+    \  - INCLUDE: \"our series\", \"we observed\", \"in our patients/cases\"\n   - EXCLUDE: \"studies report\", \"literature\
+    \ shows\", \"reported rates of\"\n\n5. STUDY DESIGN ACCEPTANCE:\n   - Accept: Prospective, retrospective, case series,\
+    \ systematic case study (N\u22651)\n   - RCT not required\n   - Pilot/feasibility studies INCLUDED\n\n\nTOPIC-SPECIFIC\
+    \ ADAPTATIONS:\n- Mixed Population Handling: Include if breast CAL outcomes reported separately from non-breast sites\n\
+    - Comparator Flexibility: Any comparator accepted (standard lipotransfer, implants, none) or single-arm CAL studies\n\
+    - Missing Data Tolerance: Cell processing details may be missing - acceptable if enrichment is stated\n- Follow Up Flexibility:\
+    \ Any follow-up duration acceptable (perioperative to long-term)\n\nDECISION FRAMEWORK SUMMARY:\n- Clear inclusion signals\
+    \ + no exclusions: INCLUDE (confidence \u22650.85)\n- Meets basics but ambiguous on 1-2 criteria: INCLUDE (confidence\
+    \ 0.60-0.75)\n- Explicit exclusion criterion violated: EXCLUDE (confidence \u22650.85)\n- Cannot determine from abstract:\
+    \ INSUFFICIENT_INFORMATION (confidence 0.50-0.65)"

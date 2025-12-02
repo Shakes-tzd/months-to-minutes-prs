@@ -1,0 +1,60 @@
+dataset:
+  path: configs/data/validation/systematic_reviews/fattah_2015/verified_pmids_complete.yaml
+  format: yaml  # Gold standard validated dataset
+  id_column: pmid
+  title_column: title
+  abstract_column: abstract
+  source: gold_standard  # 100% validated PMIDs with abstracts
+  limit: 33
+
+llm:
+  provider: openai
+  model: gpt-4.1-mini
+  temperature: 0.0
+
+output:
+  path: outputs/screening/fattah_final_results.jsonl
+  format: jsonl
+  overwrite: true
+
+runtime:
+  review_id: fattah_2015_final
+  max_concurrency: 3
+
+three_stage: true
+stage2_model: gpt-4.1
+stage3_model: gpt-5-mini
+stage3_threshold: 0.6
+
+criteria:
+  inclusion:
+    - "Describes, develops, evaluates, or compares FACIAL NERVE grading instruments/scales/systems (NOT scar assessment)"
+    
+    - "English language"
+    
+    - "NO sample minimum (N=10 to N=1920 all acceptable). Validation reviews assess psychometric properties, not clinical efficacy."
+    
+    - "Reports instrument description OR any evaluation data (reliability, validity, comparison). Accept instruments meeting even 1/6 ideal criteria (comprehensive cataloging, not quality filtering)."
+    
+    - "Technology/computer-based instruments INCLUDED IF study compares or validates against established clinical grading scales. Objective signals: 'compared to House-Brackmann', 'validated against Sunnybrook', 'versus Sydney scale', 'correlation with clinical grading'. Pure technology without clinical comparison excluded."
+    
+    - "Patient-reported outcomes INCLUDED IF analyzed alongside or compared to clinician-observed grading. Comparative studies qualify."
+
+  exclusion:
+    - "Animal-only or simulation-only studies"
+    - "Pure review articles without new instrument data"
+    - "Completely unrelated topics (not facial nerve assessment)"
+    - "Technology-only WITHOUT comparison to clinical scales"
+    - "PRO-only WITHOUT comparison to clinician-observed grading"
+
+  special_instructions: |
+    VALIDATION REVIEW - COMPREHENSIVE CATALOGING:
+    
+    1. NO PRIMARY FOCUS REQUIREMENT: Accept any mention
+    2. NO SAMPLE MINIMUM: Even N=10 acceptable
+    3. MINIMAL VALIDATION OK: Accept 1/6 ideal criteria
+    4. 68% MISSING PSYCHOMETRIC DATA: Acceptable
+    5. TECHNOLOGY NUANCE: Include IF compared to clinical scales
+       - Signals: "compared to", "validated against", "versus [clinical scale]"
+    6. PRO NUANCE: Include IF compared to clinician grading
+    7. Default to INCLUDE (comprehensive catalog goal)

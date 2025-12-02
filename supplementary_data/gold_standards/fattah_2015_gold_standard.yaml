@@ -1,0 +1,1049 @@
+metadata:
+  validation_set_name: fattah_2015
+  description: GOLD STANDARD VERIFIED CITATIONS FOR FATTAH_2015
+  date: '2025-11-26'
+  source: Validated gold standard from VALIDATION_PMID_RETRIEVAL.yaml
+  extraction_method: Manual validation + PubMed metadata fetch
+  quality: Gold standard - 100% validated
+  summary:
+    total_papers: 33
+    in_pubmed: 33
+    not_in_pubmed: 0
+    pmid_coverage_percent: 100.0
+    abstracts_retrieved: 33
+    abstract_coverage_percent: 100.0
+papers_in_pubmed:
+- ref_id: 1
+  pmid: 10503592
+  citation_short: Ahrens et al., 1999
+  citation_full: 'Ahrens A, Skarada D, Wallace M, Cheung JY, Neely JG. Rapid simultaneous
+    comparison system for subjective grading scales grading scales for facial paralysis..
+    Am J Otol. 1999. PMID: 10503592'
+  title: Rapid simultaneous comparison system for subjective grading scales grading
+    scales for facial paralysis.
+  journal: Am J Otol
+  year: 1999
+  authors: Ahrens A, Skarada D, Wallace M, Cheung JY, Neely JG
+  doi: null
+  abstract: 'OBJECTIVE: The senior authors developed a computer-assisted rapid, simultaneous
+    comparison system for nine international grading scales for facial paralysis.
+    The purpose of this study is to present the system and to compare the agreement
+    of hand-performed House-Brackmann and Sunnybrook scales, two frequently used scales
+    herein taken as the concurrent criterion test standards, with those like scales
+    done simultaneously in the computed system. STUDY DESIGN: The study design was
+    a prospective concurrent criterion validity study. Test-retest reliability and
+    interobserver agreement were assessed using the kappa statistic (k) for ordinal
+    data and the intraclass correlation coefficient (ICC) for semidimensional data.
+    SETTING: The study was conducted at a university practice. PATIENTS: Ten consecutive
+    consenting subjects with varying degrees of facial paralysis were studied. INTERVENTION:
+    Each subject was measured, in random order, twice by each method by each of two
+    independent observers. MAIN OUTCOME MEASURES: House-Brackmann score, Sunnybrook
+    score, and like-scale scores done simultaneously in the computed system were measured.
+    RESULTS: Agreement between the computed system and hand-performed criterion standards
+    was equal to each scale compared against itself; for the House-Brackmann, agreement
+    was moderate (k = 0.554); for the Sunnybrook, agreement was excellent (ICC = 0.976).
+    CONCLUSIONS: The computed system has the advantage of allowing an examiner to
+    view a rapid, simultaneous display of multiple grading scale scores at a keystroke
+    from one clinical assessment input, obviating the labor of repeating measures
+    by hand.'
+  abstract_retrieved: true
+  source: gold_standard_validated
+- ref_id: 2
+  pmid: 10652392
+  citation_short: Kayhan et al., 2000
+  citation_full: 'Kayhan FT, Zurakowski D, Rauch SD. Toronto Facial Grading System:
+    interobserver reliability.. Otolaryngol Head Neck Surg. 2000. PMID: 10652392.
+    DOI: 10.1016/S0194-5998(00)70241-5'
+  title: 'Toronto Facial Grading System: interobserver reliability.'
+  journal: Otolaryngol Head Neck Surg
+  year: 2000
+  authors: Kayhan FT, Zurakowski D, Rauch SD
+  doi: 10.1016/S0194-5998(00)70241-5
+  abstract: The Toronto Facial Grading System (TFGS) is an observer scale for rating
+    facial nerve dysfunction. The TFGS scores aspects of resting symmetry, symmetry
+    of voluntary movement, and synkinesis for each division of the face (subscores)
+    and then provides calculated total scores and an overall composite score of facial
+    function. The developers of the scale have validated its sensitivity for identifying
+    small changes in facial dysfunction and the independence of the different components
+    measured. Herein we report our results in a study of interobserver reliability
+    using the TFGS. Twenty-five patients from the Massachusetts Eye and Ear Infirmary
+    Facial Nerve Center with varying degrees of facial paresis, paralysis, and synkinesis
+    were videotaped, and the video recordings were scored by 5 independent observers
+    using the TFGS. Intraclass correlation coefficients (kappa) and 95% confidence
+    intervals were calculated for subscores and for each total and composite score.
+    Intraclass correlation coefficients ranged from 0.59 to 0.85, all considered substantial
+    to near-perfect agreement between observers. We believe the TFGS is superior to
+    other scales by virtue of its sensitivity, comprehensiveness, ease of use, and
+    interobserver reliability. The TFGS presently appears to be the best option in
+    those situations in which accurate and precise documentation of facial function
+    is required.
+  abstract_retrieved: true
+  source: gold_standard_validated
+- ref_id: 3
+  pmid: 10808106
+  citation_short: Satoh et al., 2000
+  citation_full: 'Satoh Y, Kanzaki J, Yoshihara S. A comparison and conversion table
+    of ''the House-Brackmann facial nerve grading system'' and ''the Yanagihara grading
+    system''.. Auris Nasus Larynx. 2000. PMID: 10808106. DOI: 10.1016/s0385-8146(99)00049-8'
+  title: A comparison and conversion table of 'the House-Brackmann facial nerve grading
+    system' and 'the Yanagihara grading system'.
+  journal: Auris Nasus Larynx
+  year: 2000
+  authors: Satoh Y, Kanzaki J, Yoshihara S
+  doi: 10.1016/s0385-8146(99)00049-8
+  abstract: A comparison between the House-Brackmann facial nerve grading system (the
+    HB-system) and the Yanagihara grading system (the Y-system) was studied with 199
+    evaluations of 62 cases of postoperative unilateral acoustic neuroma. In the beginning,
+    an original draft of the conversion table was formulated according to the 199
+    evaluations, in which, 0-6, 8-14, 16-20, 22-28, 30-38, and 40 points in the Y-system
+    were matched with grade VI, V, IV, III, II, and I in the HB-system respectively.
+    The result of the present study for prediction of sequelae showed that it was
+    not necessary to consider the sequelae in a conversion table. And more, the study
+    of an inter-observer variation showed that the lower and upper limits of the scores
+    in the Y-system may shift within about a 2-point range in the draft table. From
+    these aspects, a newly revised conversion table was proposed as a revised conversion
+    table, in which, 0-6, 8-14, 16-22, 24-30, 32-38, and 40 points in the Y-system
+    were matched with grade VI, V, IV, III, II, and I in the HB-system. This revised
+    conversion table is much easier to remember for clinical use, because the score
+    of the lower limit of each grade is simply in multiples of 8, that is, 0, 8, 16,
+    24, 32 and 40.
+  abstract_retrieved: true
+  source: gold_standard_validated
+- ref_id: 4
+  pmid: 11224766
+  citation_short: Kahn et al., 2001
+  citation_full: 'Kahn JB, Gliklich RE, Boyev KP, Stewart MG, Metson RB, McKenna MJ.
+    Validation of a patient-graded instrument for facial nerve paralysis: the FaCE
+    scale.. Laryngoscope. 2001. PMID: 11224766. DOI: 10.1097/00005537-200103000-00005'
+  title: 'Validation of a patient-graded instrument for facial nerve paralysis: the
+    FaCE scale.'
+  journal: Laryngoscope
+  year: 2001
+  authors: Kahn JB, Gliklich RE, Boyev KP, Stewart MG, Metson RB, McKenna MJ
+  doi: 10.1097/00005537-200103000-00005
+  abstract: 'OBJECTIVE: To develop and validate a patient-based instrument to measure
+    both facial impairment and disability, the Facial Clinimetric Evaluation (FaCE)
+    Scale. STUDY DESIGN: Prospective instrument validation. METHODS: Eighty-six patients
+    with a documented history of facial paralysis completed a preliminary, 51-item
+    instrument (alpha FaCE Scale), as well as the previously developed Facial Disability
+    Index (FDI) and the Medical Outcomes Study Short Form 36 Item Questionnaire (SF-36).
+    Two weeks after completing these instruments, 76 patients again completed the
+    alpha FaCE Scale. Forty-one of the patients were also evaluated using the House-Brackmann
+    Grading System (HBGS) and the Facial Grading System (FGS). RESULTS: Exploratory
+    principal component factor analysis grouped 15 FaCE Scale items into 6 impairment
+    and disability categories (domains), forming the beta FaCE Scale. Overall, the
+    test-retest reliability of the FaCE Scale was high (Spearman''s correlation coefficient
+    (r) = 0.88, P <.01), as were the reliability coefficients of the individual domains
+    (r = 0.81-0.92, P <.01). The FaCE Scale domains showed appropriate correlation
+    to global visual analogue scale questions posed on the original alpha FaCE Scale
+    (r = 0.65-0.81, P <.01). Overall, the FaCE Scale showed significant correlation
+    with HBGS and FGS scores (r = -0.55 and 0.57, respectively; P <.01). However,
+    not all FaCE Scale domains correlated with the HBGS and FGS scores. CONCLUSIONS:
+    A reliable and valid patient-based system to measure impairment and disability
+    in facial paralysis has been developed. This system appears to be better than
+    traditional, physician-graded scales for evaluating quality-of-life issues affected
+    by facial disability.'
+  abstract_retrieved: true
+  source: gold_standard_validated
+- ref_id: 5
+  pmid: 11771031
+  citation_short: Hu et al., 2001
+  citation_full: 'Hu WL, Ross B, Nedzelski J. Reliability of the Sunnybrook Facial
+    Grading System by novice users.. J Otolaryngol. 2001. PMID: 11771031. DOI: 10.2310/7070.2001.20148'
+  title: Reliability of the Sunnybrook Facial Grading System by novice users.
+  journal: J Otolaryngol
+  year: 2001
+  authors: Hu WL, Ross B, Nedzelski J
+  doi: 10.2310/7070.2001.20148
+  abstract: 'OBJECTIVES: To evaluate the intrarater and inter-rater reliability of
+    the Sunnybrook Facial Grading System (SFGS) by novice users. DESIGN: Prospective
+    interval study using one measurement instrument. SETTING: Tertiary teaching hospital
+    (Sunnybrook & Women''s College Health Science Centre). METHODS: Twenty-two patients
+    with a wide spectrum of facial dysfunction recorded on videotapes were rated using
+    the SFGS by eight novice observers independently in two different sittings separated
+    by 3 weeks. The order of patients was randomized for the second sitting. Intraclass
+    correlation coefficients were calculated for component scores and for total scores
+    within and between raters. RESULTS: The intrarater reliability coefficients for
+    the eight raters ranged from .838 to .929. This largely overlaps with the data
+    obtained in previous studies with expert raters. The inter-rater reliability for
+    all eight raters at time 1 was .982 and for time 2 was .970. This is higher than
+    what was previously obtained with expert raters. CONCLUSION: The SFGS is as reliable
+    when applied by novice users as by expert users.'
+  abstract_retrieved: true
+  source: gold_standard_validated
+- ref_id: 6
+  pmid: 12544040
+  citation_short: Yen et al., 2003
+  citation_full: 'Yen TL, Driscoll CL, Lalwani AK. Significance of House-Brackmann
+    facial nerve grading global score in the setting of differential facial nerve
+    function.. Otol Neurotol. 2003. PMID: 12544040. DOI: 10.1097/00129492-200301000-00023'
+  title: Significance of House-Brackmann facial nerve grading global score in the
+    setting of differential facial nerve function.
+  journal: Otol Neurotol
+  year: 2003
+  authors: Yen TL, Driscoll CL, Lalwani AK
+  doi: 10.1097/00129492-200301000-00023
+  abstract: 'OBJECTIVE: To determine the clinical significance of the House-Brackmann
+    facial nerve grading scale (HBFNGS) in the setting of differential function along
+    the branches of the facial nerve. STUDY DESIGN: Prospective study of 38 patients
+    with facial palsy who demonstrated differential facial function. SETTING: Tertiary
+    referral center. PATIENTS: Patients with facial nerve dysfunction from any cause.
+    Patients with complete facial nerve paralysis (House-Brackmann Grade 6) were excluded.
+    INTERVENTION: Physicians were provided with printed description of the HBFNGS
+    and asked to report facial nerve function as a traditional global score and as
+    a regional score based on the House-Brackmann scale for the forehead, eye, nose,
+    and mouth. This was reported as F(w) E(x) N(y) M(z), where w, x, y, and z ranged
+    from 1 to 6 based on the HBFNGS. Synkinesis was graded as none, mild, or severe.
+    MAIN OUTCOME MEASURES: The traditional HBFNGS score was compared with a regional
+    grading facial nerve grading system based on the HBFNGS for the forehead, eye,
+    nose, and mouth. Agreement between the traditional global score and the regional
+    scores was analyzed. RESULTS: In patients with variable facial weakness, the single
+    House-Brackmann score did not fully communicate their facial function. Further,
+    the single grade did not always correlate with the best or worst function along
+    the four facial regions. The single House-Brackmann score most strongly correlated
+    with the regional scoring of the eye (61%), followed by the nose/midface (40%),
+    mouth (32%), and forehead (18%). The global score did not correlate with the worst
+    regional score in 30 patients (79%). In 3 of 5 patients with synkinesis and an
+    obligatory Grade 3 or higher in the global House-Brackmann grading system, the
+    regional facial function was Grade 2 or better at one or more areas of the face.
+    CONCLUSIONS: In patients with differential facial function, a single global number
+    is inadequate to describe facial function and primarily reflects the function
+    of the eye. Regional assessment using the HBFNGS and reported as F(w) E(x) N(y)
+    M(z) more fully communicates facial function.'
+  abstract_retrieved: true
+  source: gold_standard_validated
+- ref_id: 7
+  pmid: 1526047
+  citation_short: Smith et al., 1992
+  citation_full: 'Smith IM, Murray JA, Cull RE, Slattery J. A comparison of facial
+    grading systems.. Clin Otolaryngol Allied Sci. 1992. PMID: 1526047. DOI: 10.1111/j.1365-2273.1992.tb01001.x'
+  title: A comparison of facial grading systems.
+  journal: Clin Otolaryngol Allied Sci
+  year: 1992
+  authors: Smith IM, Murray JA, Cull RE, Slattery J
+  doi: 10.1111/j.1365-2273.1992.tb01001.x
+  abstract: There have been several attempts at establishing a grading system to estimate
+    the severity of a facial palsy. This study compares the validity and consistency
+    of all the leading systems. The results indicate that the systems are comparable
+    and overall none had the advantage over the others. Interobserver variation had
+    a significant effect on the consistency of the systems used, but experience of
+    the observer was not a significant factor. The simplest classification studied
+    was the House-Brackman system which is recommended.
+  abstract_retrieved: true
+  source: gold_standard_validated
+- ref_id: 8
+  pmid: 15547437
+  citation_short: Berg et al., 2004
+  citation_full: 'Berg T, Jonsson L, Engstrom M. Agreement between the Sunnybrook,
+    House-Brackmann, and Yanagihara facial nerve grading systems in Bell''s palsy..
+    Otol Neurotol. 2004. PMID: 15547437. DOI: 10.1097/00129492-200411000-00027'
+  title: Agreement between the Sunnybrook, House-Brackmann, and Yanagihara facial
+    nerve grading systems in Bell's palsy.
+  journal: Otol Neurotol
+  year: 2004
+  authors: Berg T, Jonsson L, Engstrom M
+  doi: 10.1097/00129492-200411000-00027
+  abstract: 'OBJECTIVE: To assess the agreement between the Sunnybrook facial nerve
+    grading system and the House-Brackmann and Yanagihara systems. STUDY DESIGN: Prospective
+    clinical facial nerve grading. SETTING: Tertiary referral center. PATIENTS: One-hundred
+    assessments, 94 in patients with Bell''s palsy and 6 with herpes zoster. INTERVENTION:
+    Diagnostic. MAIN OUTCOME MEASURES: Evaluation according to the weighted regional
+    Sunnybrook system, the gross House-Brackmann system, and the unweighted regional
+    Yanagihara system. Weighted kappa statistics was used to measure agreement between
+    the grading systems. RESULTS: The average weighted kappa value between the Sunny-brook,
+    House-Brackmann, and Yanagihara grading systems was 0.65; kappa values increased
+    temporally (but not statistically significantly) up to day 180. The highest agreement
+    value, 0.72, was found between the Sunnybrook and Yanagihara grading systems.
+    The weighted kappa value between the Sunnybrook and House-Brackmann systems was
+    0.59. In Sunnybrook gradings less than 63, there was an overlap between House-Brackmann
+    scores of III to VI. Reliable conversion tables between the gross House-Brackmann
+    system and the regional Sunnybrook and Yanagihara systems could not be established.
+    CONCLUSION: The Sunnybrook system scores at the same agreement level as the House-Brackmann
+    and Yanagihara grading systems. There is an evaluative difference between the
+    weighted regional Sunnybrook and the gross House-Brackmann systems. Substantial
+    agreement was found between the regional Sunnybrook and Yanagihara scales. Sunnybrook
+    grading is easy and quick. By adding objective measurements and additional secondary
+    defects, the Sunnybrook system can be an alternative to the other predominating
+    grading systems.'
+  abstract_retrieved: true
+  source: gold_standard_validated
+- ref_id: 9
+  pmid: 15806042
+  citation_short: Coulson et al., 2005
+  citation_full: 'Coulson SE, Croxson GR, Adams RD, O''Dwyer NJ. Reliability of the
+    "Sydney," "Sunnybrook," and "House Brackmann" facial grading systems to assess
+    voluntary movement and synkinesis after facial nerve paralysis.. Otolaryngol Head
+    Neck Surg. 2005. PMID: 15806042. DOI: 10.1016/j.otohns.2005.01.027'
+  title: Reliability of the "Sydney," "Sunnybrook," and "House Brackmann" facial grading
+    systems to assess voluntary movement and synkinesis after facial nerve paralysis.
+  journal: Otolaryngol Head Neck Surg
+  year: 2005
+  authors: Coulson SE, Croxson GR, Adams RD, O'Dwyer NJ
+  doi: 10.1016/j.otohns.2005.01.027
+  abstract: 'OBJECTIVE: To investigate the extent of within-system reliability and
+    between-system correlation for the "Sydney" and "Sunnybrook" systems of grading
+    facial nerve paralysis, and to examine the interobserver reliability and agreement
+    of the "House Brackmann" grading system. STUDY DESIGN: A fixed-effects reliability
+    study in which 6 otolaryngologists viewed videotapes of patients with facial nerve
+    paralysis. SETTING: University and medical Centers. PATIENTS: Patients with unilateral
+    lower motor neurone facial nerve dysfunction greater than 1 year after onset,
+    none of whom had undergone surgical reanimation procedures. Intervention Twenty-one
+    patients with facial nerve paralysis were videotaped while they performed a protocol
+    of facial movements. Six otolaryngologists viewed the videotapes and scored them
+    with the Sydney and Sunnybrook systems, and then gave a House Brackmann grade.
+    MAIN OUTCOME MEASURE: The 3 systems of grading facial nerve paralysis were evaluated
+    and compared with the use of intraclass correlation coefficients, Pearson''s weighted
+    kappa, and percentage exact agreement values. RESULTS: The Sydney and the Sunnybrook
+    systems had good intrasystem reliability and high intersystem association for
+    the assessment of voluntary movement. Grading of synkinesis was found to have
+    low reliability both within and between systems. The House Brackmann system had
+    substantial reliability as shown by weighted kappa but had a percentage exact
+    agreement of 44%. CONCLUSIONS: For clinical grading of voluntary movement, there
+    is good correlation between ratings given on the Sydney and Sunnybrook systems,
+    and within each system there is good reliability. The assessment of synkinesis
+    was far less reliable within, and less related between, systems. Although the
+    reliability of the House Brackmann system was found to be high, examination of
+    individual grades revealed some wide variation between trained observers.'
+  abstract_retrieved: true
+  source: gold_standard_validated
+- ref_id: 10
+  pmid: 16759238
+  citation_short: Lazarini et al., 2006
+  citation_full: 'Lazarini P, Mitre E, Takatu E, Tidei R. Graphic-visual adaptation
+    of House-Brackmann facial nerve grading for peripheral facial palsy.. Clin Otolaryngol.
+    2006. PMID: 16759238. DOI: 10.1111/j.1749-4486.2006.01197.x'
+  title: Graphic-visual adaptation of House-Brackmann facial nerve grading for peripheral
+    facial palsy.
+  journal: Clin Otolaryngol
+  year: 2006
+  authors: Lazarini P, Mitre E, Takatu E, Tidei R
+  doi: 10.1111/j.1749-4486.2006.01197.x
+  abstract: 'OBJECTIVE: To determine if the diagram with schematic drawings of the
+    face based on House-Brackmann facial nerve grading scale can be of easier use
+    than the original grading scale for facial palsy patients. STUDY DESIGN: Prospective
+    case study of 32 patients with facial palsy. SETTING: Tertiary referral center-university
+    hospital. PATIENTS: Patients with different degrees of acute peripheral facial
+    palsy from any cause. MAIN OUTCOME MEASURES: The patients were photographed and
+    then classified by degree of facial palsy through analysis of the pictures. At
+    first, three of the authors individually utilised the original classification
+    described by House-Brackmann facial nerve grading and then, after 7 days, they
+    employed the illustration table proposed. After 30 days, the same methods were
+    again used by the same authors for both House-Brackmann facial nerve grading and
+    the illustration table. RESULTS: The analysis of the obtained data reveals that
+    the classification described by House and Brackmann (Otolaryngol. Head Neck Surg.
+    1985;93:146) presents several items to be evaluated, making it difficult to use
+    and demanding greater time for correct application. On the contrary, the proposed
+    illustration table allows faster evaluation and easier memorisation, not being
+    subject to possible interpretation or translation mistakes, as illustrations are
+    a universal language. Neither method presented absolute reproducibility, however,
+    we found slightly larger concordance indexes among the authors for the proposed
+    illustration table. We noticed average values of reproducibility were approximately
+    65% in the House-Brackmann classification, and 75% in the evaluation using the
+    diagram of the schematic drawings. CONCLUSIONS: The authors concluded that the
+    illustration table could be utilised in substitution for the original description
+    of House-Brackmann facial nerve grading; they also concluded that the illustration
+    table allows faster evaluation and easier memorisation.'
+  abstract_retrieved: true
+  source: gold_standard_validated
+- ref_id: 11
+  pmid: 17006355
+  citation_short: de et al., 2006
+  citation_full: 'de Ru, Braunius WW, van Benthem, Busschers WB, Hordijk GJ. Grading
+    facial nerve function: why a new grading system, the MoReSS, should be proposed..
+    Otol Neurotol. 2006. PMID: 17006355. DOI: 10.1097/01.mao.0000227896.34915.4f'
+  title: 'Grading facial nerve function: why a new grading system, the MoReSS, should
+    be proposed.'
+  journal: Otol Neurotol
+  year: 2006
+  authors: de Ru, Braunius WW, van Benthem, Busschers WB, Hordijk GJ
+  doi: 10.1097/01.mao.0000227896.34915.4f
+  abstract: 'OBJECTIVE: To compare the interobserver variability of a new grading
+    system to the currently recommended House-Brackmann Grading Scale. STUDY DESIGN:
+    Prospective case-control study. SETTING: Tertiary referral center. PATIENTS: All
+    patients with a facial nerve paresis/paralysis (whatever the cause). INTERVENTION:
+    All patients were evaluated for their facial nerve function by three observers,
+    independently, using both the new system and the House-Brackmann Grading Scale.
+    MAIN OUTCOME MEASURE: The level of agreement between the three observers using
+    both scales. RESULTS: With the movement, rest, secondary defects, and subjective
+    scoring grading scale, a higher percentage of agreement between the observers
+    was noticed than with the House-Brackmann Grading Scale. CONCLUSION: The movement,
+    rest, secondary defects, and subjective scoring grading system is more useful
+    for grading facial nerve dysfunction in clinical practice than the House-Brackmann
+    Grading Scale.'
+  abstract_retrieved: true
+  source: gold_standard_validated
+- ref_id: 12
+  pmid: 17141075
+  citation_short: Kanerva et al., 2006
+  citation_full: 'Kanerva M, Poussa T, Pitkaranta A. Sunnybrook and House-Brackmann
+    Facial Grading Systems: intrarater repeatability and interrater agreement.. Otolaryngol
+    Head Neck Surg. 2006. PMID: 17141075. DOI: 10.1016/j.otohns.2006.05.748'
+  title: 'Sunnybrook and House-Brackmann Facial Grading Systems: intrarater repeatability
+    and interrater agreement.'
+  journal: Otolaryngol Head Neck Surg
+  year: 2006
+  authors: Kanerva M, Poussa T, Pitkaranta A
+  doi: 10.1016/j.otohns.2006.05.748
+  abstract: 'OBJECTIVE: To assess repeatability and agreement of the House-Brackmann
+    (H-B FGS) and the Sunnybrook (SFGS) Facial Grading Systems. STUDY DESIGN AND SETTING:
+    Eight video-recorded facial palsy patients were graded in 2 sittings by 28 doctors.
+    Repeatability and agreement for SFGS were measured by intraclass correlation coefficient
+    (ICC) and coefficient of repeatability (CR), and for H-B FGS by agreement percentage
+    and kappa coefficients. RESULTS: Repeatability for SFGS was from good to excellent
+    and for H-B FGS from fair to good. Agreement between doctors for SFGS was moderate
+    by CR and nearly perfect by ICC. For H-B FGS, the agreement percentage was 50%,
+    and generalized kappa indicated only fair agreement. CONCLUSIONS: SFGS was at
+    least as good in repeatability as H-B FGS and showed more reliable results in
+    agreement between doctors. SIGNIFICANCE: While waiting for an ideal scale for
+    facial grading, the usage of SFGS can be encouraged over H-B FGS.'
+  abstract_retrieved: true
+  source: gold_standard_validated
+- ref_id: 13
+  pmid: 18300959
+  citation_short: Manktelow et al., 2008
+  citation_full: 'Manktelow RT, Zuker RM, Tomat LR. Facial paralysis measurement with
+    a handheld ruler.. Plast Reconstr Surg. 2008. PMID: 18300959. DOI: 10.1097/01.prs.0000297648.90717.bd'
+  title: Facial paralysis measurement with a handheld ruler.
+  journal: Plast Reconstr Surg
+  year: 2008
+  authors: Manktelow RT, Zuker RM, Tomat LR
+  doi: 10.1097/01.prs.0000297648.90717.bd
+  abstract: 'BACKGROUND: Evaluation of the severity of facial paralysis deformity
+    and the effectiveness of reconstructive surgery requires a measurement tool that
+    is practical and simple enough for daily use. It should be able to objectively
+    measure facial asymmetry at rest and the amount of facial movement during expression.
+    The authors present and assess a simple measurement technique that is readily
+    usable in the clinic. Designed to evaluate smile reconstruction, the technique
+    can be used to evaluate other parts of the paralyzed face, such as the eye, nose,
+    and forehead. METHODS: A standardized handheld ruler measuring technique is described
+    for the assessment of the position and the movement of five points marked on the
+    lips. The measured points are used to characterize the position of the mouth at
+    rest and the movement that occurs with smiling. The technique uses two transparent
+    rulers that are held in the examiner''s hand. Using this technique, two experienced
+    examiners separately measured the rest position of 21 unilateral facial paralysis
+    patients twice, creating 84 sets of measurements. Accuracy was assessed by simultaneously
+    measuring the movement of the commissure and mid upper lip during smiling on 10
+    normal persons using both handheld ruler and a proven technique, the facial reanimation
+    measurement system. RESULTS: The average intraclass correlation coefficients for
+    interrater and intrarater reliability exceed 0.89. The mean difference between
+    the handheld ruler and facial reanimation measurement system measurements was
+    1.7 mm. CONCLUSION: The handheld ruler technique is simple, reliable, and accurate,
+    providing useful measurements for the evaluation of facial paralysis reconstructions.'
+  abstract_retrieved: true
+  source: gold_standard_validated
+- ref_id: 14
+  pmid: 1892624
+  citation_short: Smith et al., 1991
+  citation_full: 'Smith IM, Murray JA, Cull RE, Slattery J. Facial weakness. A comparison
+    of clinical and photographic methods of observation.. Arch Otolaryngol Head Neck
+    Surg. 1991. PMID: 1892624. DOI: 10.1001/archotol.1991.01870200100017'
+  title: Facial weakness. A comparison of clinical and photographic methods of observation.
+  journal: Arch Otolaryngol Head Neck Surg
+  year: 1991
+  authors: Smith IM, Murray JA, Cull RE, Slattery J
+  doi: 10.1001/archotol.1991.01870200100017
+  abstract: The search for an internationally acceptable facial grading system has
+    resulted in an assessment of existing methods by several investigators. These
+    studies were based on observations of video film taken of patients with varying
+    degrees of facial malfunction. Although the grading systems were evaluated, the
+    use of videotape has never been compared with clinical examination and its suitability
+    for this type of work is, therefore, unknown. We used nine facial grading systems
+    to compare the results of clinical observation with those of photographic methods
+    of presentation. The latter included videotape, photographic slides, and a combination
+    of the two. The correlation between clinical examination findings and findings
+    of any of the photographic methods was poor, suggesting the need for a standard
+    form of presentation when grading patients. The most consistent results were found
+    with either clinical examination or photographic slides; videotape was the least
+    reliable.
+  abstract_retrieved: true
+  source: gold_standard_validated
+- ref_id: 15
+  pmid: 19201280
+  citation_short: Reitzen et al., 2009
+  citation_full: 'Reitzen SD, Babb JS, Lalwani AK. Significance and reliability of
+    the House-Brackmann grading system for regional facial nerve function.. Otolaryngol
+    Head Neck Surg. 2009. PMID: 19201280. DOI: 10.1016/j.otohns.2008.11.021'
+  title: Significance and reliability of the House-Brackmann grading system for regional
+    facial nerve function.
+  journal: Otolaryngol Head Neck Surg
+  year: 2009
+  authors: Reitzen SD, Babb JS, Lalwani AK
+  doi: 10.1016/j.otohns.2008.11.021
+  abstract: 'OBJECTIVE: To determine the reliability of the House-Brackmann facial
+    nerve grading scale in the setting of differential function across its branches.
+    STUDY DESIGN: Prospective. SUBJECTS AND METHODS: Eleven physicians with different
+    levels of clinical experience and three upper-level medical students were provided
+    with digital video clips of 11 patients with differential facial nerve functioning,
+    and asked to report facial nerve function as a traditional global score and as
+    a regional score on the basis of the House-Brackmann scale for the forehead, eye,
+    nose, and mouth. Agreements between the traditional global score and the regional
+    scores, as well as inter-rater agreement, were analyzed. RESULTS: In patients
+    with variable facial weakness, a single House-Brackmann score did not fully communicate
+    facial function. The single House-Brackmann score most strongly correlated with
+    the regional scoring of the nose/midface (59%), followed by the mouth (51%), eye
+    (48%), and forehead (35%). Overall inter-reader reliability was relatively strong
+    for the midface (kappa = 0.503) and global scores (kappa = 0.541), followed by
+    the mouth (k = 0.419), the forehead (k = 0.330), and the eye (k = 0.302). There
+    was a marked tendency for reader agreement to increase among those with more clinical
+    experience. CONCLUSION: Regional assessment using the House-Brackmann grading
+    scale more fully communicates facial function and increases in reliability with
+    experience.'
+  abstract_retrieved: true
+  source: gold_standard_validated
+- ref_id: 16
+  pmid: 19328328
+  citation_short: Vrabec et al., 2009
+  citation_full: 'Vrabec JT, Backous DD, Djalilian HR, Gidley PW, Leonetti JP, Marzo
+    SJ, Morrison D, Ng M, Ramsey MJ, Schaitkin BM, Smouha E, Toh EH, Wax MK, Williamson
+    RA, Smith EO. Facial Nerve Grading System 2.0.. Otolaryngol Head Neck Surg. 2009.
+    PMID: 19328328. DOI: 10.1016/j.otohns.2008.12.031'
+  title: Facial Nerve Grading System 2.0.
+  journal: Otolaryngol Head Neck Surg
+  year: 2009
+  authors: Vrabec JT, Backous DD, Djalilian HR, Gidley PW, Leonetti JP, Marzo SJ,
+    Morrison D, Ng M, Ramsey MJ, Schaitkin BM, Smouha E, Toh EH, Wax MK, Williamson
+    RA, Smith EO
+  doi: 10.1016/j.otohns.2008.12.031
+  abstract: 'OBJECTIVE: To present an updated version of the original Facial Nerve
+    Grading Scale (FNGS), commonly referred to as the House-Brackmann scale. STUDY
+    DESIGN: Controlled trial of grading systems using a series of 21 videos of individuals
+    with varying degrees of facial paralysis. RESULTS: The intraobserver and interobserver
+    agreement was high among the original and revised scales. Nominal improvement
+    is seen in percentage of exact agreement of grade and reduction of instances of
+    examiners differing by more then one grade when using FNGS 2.0. FNGS 2.0 also
+    offers improved agreement in differentiating between grades 3 and 4. CONCLUSION:
+    FNGS 2.0 incorporates regional scoring of facial movement, providing additional
+    information while maintaining agreement comparable to the original scale. Ambiguities
+    regarding use of the grading scale are addressed.'
+  abstract_retrieved: true
+  source: gold_standard_validated
+- ref_id: 17
+  pmid: 20422701
+  citation_short: Neely et al., 2010
+  citation_full: 'Neely JG, Cherian NG, Dickerson CB, Nedzelski JM. Sunnybrook facial
+    grading system: reliability and criteria for grading.. Laryngoscope. 2010. PMID:
+    20422701. DOI: 10.1002/lary.20868'
+  title: 'Sunnybrook facial grading system: reliability and criteria for grading.'
+  journal: Laryngoscope
+  year: 2010
+  authors: Neely JG, Cherian NG, Dickerson CB, Nedzelski JM
+  doi: 10.1002/lary.20868
+  abstract: 'OBJECTIVES/HYPOTHESIS: In clinical research, which is distinctly quantitative
+    and rigidly fixed to a written protocol, the need for precision is great, especially
+    when multicenter trials are planned. The Sunnybrook Facial Grading System (SB)
+    is a well-established tool for assessing facial movement outcomes; however, some
+    ambiguities do arise. The purpose of this study was to construct specific grading
+    criteria and to test the intra-rater and inter-rater reliability before and after
+    the use of these criteria. The hypothesis was that even in naive observers, specific
+    criteria improve reliability. STUDY DESIGN: Prospective test of hypothesis. METHODS:
+    Facial video recordings of 30 subjects with facial paralysis were randomly presented
+    to two naive raters in four trials; trials 1 and 2 using the SB system in the
+    usual manner, and trials 3 and 4 using specific grading criteria for the SB system.
+    RESULTS: The SB system was reliable, even with naive raters, having an intraclass
+    correlation coefficient (ICC) of 0.890 between raters; this was improved with
+    the use of specific grading criteria to 0.927. Additionally, variability of the
+    SB composite scores was greatest in the midrange of scores and was predominantly
+    seen during voluntary movement of brow rising and lip puckering. CONCLUSIONS:
+    To our knowledge, this is the first report of specific criteria for completing
+    the SB system. It is also the first in-depth description of the location within
+    the system in which the majority of variances occur.'
+  abstract_retrieved: true
+  source: gold_standard_validated
+- ref_id: 18
+  pmid: 21120826
+  citation_short: Henstrom et al., 2011
+  citation_full: 'Henstrom DK, Skilbeck CJ, Weinberg J, Knox C, Cheney ML, Hadlock
+    TA. Good correlation between original and modified House Brackmann facial grading
+    systems.. Laryngoscope. 2011. PMID: 21120826. DOI: 10.1002/lary.21163'
+  title: Good correlation between original and modified House Brackmann facial grading
+    systems.
+  journal: Laryngoscope
+  year: 2011
+  authors: Henstrom DK, Skilbeck CJ, Weinberg J, Knox C, Cheney ML, Hadlock TA
+  doi: 10.1002/lary.21163
+  abstract: 'OBJECTIVES/HYPOTHESIS: Subjective scales of facial function were plagued
+    with reporting variations until the House-Brackmann scale was described in 1985.
+    Despite its utility, weaknesses were identified, including noninclusion of synkinesis
+    phenomena and insensitivity to segmental weakness. Therefore, the scale was recently
+    revised to address these weaknesses. The objective of this investigation was to
+    determine agreement between the original and the updated House-Brackmann scales.
+    STUDY DESIGN: Prospective clinical trial. METHODS: Fifty consecutive new facial
+    paralysis patients underwent standardized facial videography while performing
+    facial movements. Video clips were scored by three independent facial nerve clinicians.
+    The time it took to produce a score for each method was tracked. Interobserver
+    correlations were calculated, and comparisons were made between scores by using
+    the original and modified House-Brackmann scales. RESULTS: : Interobserver correlation
+    was high for both House-Brackmann scales. Overall scores were in excellent agreement
+    (difference of 0.1 +/- 0.5, no statistical difference), although the modified
+    scale took substantially longer to calculate (120 seconds +/- 20 seconds vs. 30
+    seconds +/- 10 seconds, P < .001). CONCLUSIONS: We found substantial grading correlation
+    between the original and the newly modified House-Brackmann scales. Because of
+    specific zonal and synkinesis scoring, the modified scale took longer to score.'
+  abstract_retrieved: true
+  source: gold_standard_validated
+- ref_id: 19
+  pmid: 21493237
+  citation_short: Kanerva et al., 2011
+  citation_full: 'Kanerva M, Jonsson L, Berg T, Axelsson S, Stjernquist-Desatnik A,
+    Engstrom M, Pitkaranta A. Sunnybrook and House-Brackmann systems in 5397 facial
+    gradings.. Otolaryngol Head Neck Surg. 2011. PMID: 21493237. DOI: 10.1177/0194599810397497'
+  title: Sunnybrook and House-Brackmann systems in 5397 facial gradings.
+  journal: Otolaryngol Head Neck Surg
+  year: 2011
+  authors: Kanerva M, Jonsson L, Berg T, Axelsson S, Stjernquist-Desatnik A, Engstrom
+    M, Pitkaranta A
+  doi: 10.1177/0194599810397497
+  abstract: 'OBJECTIVES: To study the correlation between Sunnybrook and House-Brackmann
+    facial grading systems at different time points during the course of peripheral
+    facial palsy. STUDY DESIGN: Prospective multicenter trial. SETTING: Seventeen
+    otorhinolaryngological centers. SUBJECTS AND METHODS: Data are part of the Scandinavian
+    Bell''s palsy study. The facial function of 1920 patients with peripheral facial
+    palsy was assessed 5397 times with both Sunnybrook and House-Brackmann (H-B) facial
+    grading systems. Grading was done at initial visit, at days 11 to 17 of palsy
+    onset, and at 1 month, 2 months, 3 months, 6 months, and 12 months. Statistical
+    evaluation was by Spearman correlation coefficient and box plot analysis. RESULTS:
+    Spearman correlation coefficient varied from -0.81 to -0.96, with the weakest
+    correlation found at initial visit. Box plot analysis for all assessments revealed
+    that Sunnybrook scores were widely spread over different H-B grades. With 50%
+    of the results closest to the median, Sunnybrook composite scores varied in H-B
+    grades as follows: H-B I, 100; H-B II, 71 to 90; H-B III, 43 to 62; H-B IV, 26
+    to 43; H-B V, 13 to 25; and H-B VI, 5 to 14. CONCLUSION: Gradings correlated better
+    in follow-up assessments than at initial visit. As shown by the wide overlap of
+    the grading results, subjective grading systems are only approximate. However,
+    a conversion table for Sunnybrook and H-B gradings was obtained and is included
+    in the article. It can be used for further development of facial grading systems.'
+  abstract_retrieved: true
+  source: gold_standard_validated
+- ref_id: 20
+  pmid: 22053940
+  citation_short: Saito, 2012
+  citation_full: 'Saito H. A simple objective evaluation and grading for facial paralysis
+    outcomes.. Acta Otolaryngol. 2012. PMID: 22053940. DOI: 10.3109/00016489.2011.626793'
+  title: A simple objective evaluation and grading for facial paralysis outcomes.
+  journal: Acta Otolaryngol
+  year: 2012
+  authors: Saito H
+  doi: 10.3109/00016489.2011.626793
+  abstract: 'CONCLUSION: A simple measuring box to determine lip-shift angle and eye-width
+    narrowing offered simultaneous and objective data on outcome dysfunction. The
+    method is as easy as visual approaches. The method is objective and as easy as
+    visual access. It is practical for routine clinical use in any clinic. OBJECTIVES:
+    The outcome dysfunction after facial paralysis is commonly evaluated by subjective
+    visual access. This paper introduces a new method for simple objective evaluation
+    and grading with documentation of lip-shift and eye-width changes. METHODS: Thirty
+    adult controls were used to determine standard deviations (SDs) for angular shift
+    of the lip at rest and eye-width narrowing at maximum lip protrusion. Thirty patients
+    with facial paralysis more than 6 months after onset were studied for outcomes
+    in terms of synkinesis, contracture, and lip deviation to the healthy side. Abnormalities
+    were read with a simple measuring box. RESULTS: Among the controls, mean lip shift
+    at rest and its SD were 0 degrees  and 1.2. Mean eye narrowing at maximum lip
+    protrusion effort and its SD were -0.6 mm and 1.6. This paper proposes a new grading
+    system that relies simply on the sum of evaluating items exceeding 2 SDs, or residual
+    lip deviation to the healthy side.'
+  abstract_retrieved: true
+  source: gold_standard_validated
+- ref_id: 21
+  pmid: 22487815
+  citation_short: Pavese et al., 2013
+  citation_full: 'Pavese C, Tinelli C, Furini F, Abbamonte M, Giromini E, Sala V,
+    De Silvestri, Cecini M, Dalla Toffola. Validation of the Italian version of the
+    Sunnybrook Facial Grading System.. Neurol Sci. 2013. PMID: 22487815. DOI: 10.1007/s10072-012-1025-x'
+  title: Validation of the Italian version of the Sunnybrook Facial Grading System.
+  journal: Neurol Sci
+  year: 2013
+  authors: Pavese C, Tinelli C, Furini F, Abbamonte M, Giromini E, Sala V, De Silvestri,
+    Cecini M, Dalla Toffola
+  doi: 10.1007/s10072-012-1025-x
+  abstract: The Sunnybrook Facial Grading System (SFGS) is one of the most employed
+    scales to assess the severity of facial palsy. The aim of our study was to produce
+    an Italian version of the SFGS and of its explanatory criteria, and to test their
+    measurement properties when employed by Italian physicians. A multidisciplinary
+    committee translated and adapted the scale and its criteria into Italian. Six
+    native Italian physicians, four of whom experienced in facial palsy and two novices,
+    rated independently 29 videos of facial palsy patients twice. Internal consistency,
+    agreement and repeatability were evaluated. The Italian version of the SFGS showed
+    a high degree of internal consistency with a Cronbach's alpha of 0.91. The test-retest
+    reliability was high for both inter-rater and intra-rater measures with an ICC
+    of 0.96 and 0.98, respectively. The scores given by the novice physicians were
+    comparable with the scores given by the expert physicians. Our study suggests
+    that the Italian version of the SFGS has excellent internal consistency and reproducibility,
+    comparable to the original scale. Our study confirms in an independent case record
+    the high measurement properties of SFGS and provides the first validated Italian
+    scale for the assessment of facial palsy.
+  abstract_retrieved: true
+  source: gold_standard_validated
+- ref_id: 22
+  pmid: 23241802
+  citation_short: Lee et al., 2013
+  citation_full: 'Lee LN, Susarla SM, H Hohman, Henstrom DK, Cheney ML, Hadlock TA.
+    A comparison of facial nerve grading systems.. Ann Plast Surg. 2013. PMID: 23241802.
+    DOI: 10.1097/SAP.0b013e31826acb2c'
+  title: A comparison of facial nerve grading systems.
+  journal: Ann Plast Surg
+  year: 2013
+  authors: Lee LN, Susarla SM, H Hohman, Henstrom DK, Cheney ML, Hadlock TA
+  doi: 10.1097/SAP.0b013e31826acb2c
+  abstract: 'PURPOSE: This study aimed to compare a computerized tool to standard
+    objective clinical scales for global and zone-specific assessment of facial nerve
+    function. METHODS: This was a retrospective review of 77 patients with facial
+    paralysis who underwent facial videography. Videos were independently scored by
+    3 facial nerve specialists using the House-Brackmann Scales (HBI and HBII). Digital
+    scoring was performed with Facogram software. Scores were recorded and compared
+    using intraclass and Pearson (r) correlations. RESULTS: Interobserver correlation
+    was high with HBII, with overall scores in excellent agreement (intraclass correlation
+    range, 0.78-0.95; P </= 0.0001). There were strong correlations between Facogram
+    and HBII (r >/= 0.67, P </= 0.0001) and strong intraobserver correlations between
+    HBI and HBII (r >/= 0.71, P </= 0.0001). The HBII required more clinician time
+    [mean (SD), 72 (21) seconds per case], compared with Facogram, which did not require
+    any clinician time. CONCLUSIONS: An automated, zone-specific facial analysis tool
+    can eliminate clinician subjectivity and allow standardized assessment of facial
+    paralysis.'
+  abstract_retrieved: true
+  source: gold_standard_validated
+- ref_id: 23
+  pmid: 23321051
+  citation_short: Alicandri-Ciufelli et al., 2013
+  citation_full: 'Alicandri-Ciufelli M, Piccinini A, Grammatica A, Salafia F, Ciancimino
+    C, Cunsolo E, Pingani L, Rigatelli M, Genovese E, Monzani D, Gioacchini FM, Marchioni
+    D, Presutti L. A step backward: the ''Rough'' facial nerve grading system.. J
+    Craniomaxillofac Surg. 2013. PMID: 23321051. DOI: 10.1016/j.jcms.2012.11.047'
+  title: 'A step backward: the ''Rough'' facial nerve grading system.'
+  journal: J Craniomaxillofac Surg
+  year: 2013
+  authors: Alicandri-Ciufelli M, Piccinini A, Grammatica A, Salafia F, Ciancimino
+    C, Cunsolo E, Pingani L, Rigatelli M, Genovese E, Monzani D, Gioacchini FM, Marchioni
+    D, Presutti L
+  doi: 10.1016/j.jcms.2012.11.047
+  abstract: 'OBJECTIVES: Several modalities currently exist to rate the degree of
+    facial function clinically but even though it has significant limitations, the
+    most widely used scale is the House-Brackmann grading system (HBGS). A simplified
+    scale is introduced here, the ''Rough'' Grading System (RGS - Grade I: normal
+    movement; Grade II: slight paralysis; Grade III: frank paralysis with eye closure;
+    Grade IV: frank paralysis without eye closure; Grade V: almost complete paralysis
+    with only slight movements; Grade VI: total paralysis). The aim of the present
+    study was to verify the interrater reliability and the interscale validity of
+    this simplified grading system. STUDY DESIGN: Scale validation study based on
+    a prospective cohort. METHODS: Fifty patients with facial palsy, consecutively
+    referred to our department were filmed while performing some codified facial movements.
+    Then two independent groups (one rating using the HBGS, the other rating using
+    the RGS) assigned a grade after reviewing the videos. The time required for the
+    rating was also noted. RESULTS: The HBGS showed a mean value of interrater agreement
+    of 0.46 while the RGS showed a mean value of 0.59. The concurrent validity between
+    HBGS and RGS ranged from 0.86 to 0.90 (p < 0.001 for every comparison). There
+    was no statistically significant difference between HBGS and RGS in the mean time
+    taken for rating (p = 0.15). CONCLUSIONS: The RGS reached an adequate level of
+    interrater reliability, higher than the HBGS. The correlation between the two
+    scales is high and the times required for rating are similar. The present results
+    may justify the use of the RGS in routine clinical practice. LEVEL OF EVIDENCE:
+    N/A.'
+  abstract_retrieved: true
+  source: gold_standard_validated
+- ref_id: 24
+  pmid: 2399941
+  citation_short: Croxson et al., 1990
+  citation_full: 'Croxson G, May M, Mester SJ. Grading facial nerve function: House-Brackmann
+    versus Burres-Fisch methods.. Am J Otol. 1990. PMID: 2399941'
+  title: 'Grading facial nerve function: House-Brackmann versus Burres-Fisch methods.'
+  journal: Am J Otol
+  year: 1990
+  authors: Croxson G, May M, Mester SJ
+  doi: null
+  abstract: Many systems for reporting results of facial function tests have been
+    proposed, but after five International Facial Nerve Symposia, a perfect system
+    for reporting has yet to be developed. In 1985 the American Academy of Otolaryngology-Head
+    and Neck Surgery adopted the House-Brackmann (H-B) six-point subjective grading
+    scale as a universal standard. This decision was based on the recommendation of
+    the Facial Nerve Disorders Committee. The next year, 1986, Burres and Fisch proposed
+    the Linear Measurement Index (B-F LMI) as an alternative, objective grading system.
+    To determine the ability of each system to grade the facial function of patients
+    with facial palsy, and the relative merits of each system, 41 patients with facial
+    weakness and one normal patient were studied. The H-B grading system is easy to
+    use and provides simple, concise criteria for each separate grade of facial function.
+    The B-F LMI grading system is time-consuming and labor-intensive, and requires
+    a complex calculation to derive a percentage value that represents facial function.
+    The most important finding of this study was the high degree of correlation between
+    the two systems, in spite of the fact that the H-B system is subjective and qualitative
+    while the B-F LMI system is objective and quantitative. Until the perfect grading
+    system is developed, the authors favor combining the H-B and B-F LMI systems as
+    the best method available at the moment to evaluate facial function.
+  abstract_retrieved: true
+  source: gold_standard_validated
+- ref_id: 25
+  pmid: 24069515
+  citation_short: Lee et al., 2013
+  citation_full: 'Lee HY, Park MS, Byun JY, Chung JH, Na SY, Yeo SG. Agreement between
+    the Facial Nerve Grading System 2.0 and the House-Brackmann Grading System in
+    Patients with Bell Palsy.. Clin Exp Otorhinolaryngol. 2013. PMID: 24069515. DOI:
+    10.3342/ceo.2013.6.3.135'
+  title: Agreement between the Facial Nerve Grading System 2.0 and the House-Brackmann
+    Grading System in Patients with Bell Palsy.
+  journal: Clin Exp Otorhinolaryngol
+  year: 2013
+  authors: Lee HY, Park MS, Byun JY, Chung JH, Na SY, Yeo SG
+  doi: 10.3342/ceo.2013.6.3.135
+  abstract: 'OBJECTIVES: We have analyzed the correlation between the House-Brackmann
+    (HB) scale and Facial Nerve Grading System 2.0 (FNGS 2.0) in patients with Bell
+    palsy, and evaluated the usefulness of the new grading system. METHODS: Sixty
+    patients diagnosed with Bell palsy from May 2009 to December 2010 were evaluated
+    using the HB scale and FNGS 2.0 scale during their initial visit, and after 3
+    and 6 weeks and 3 months. RESULTS: The overall intraclass correlation coefficient
+    (ICC) was 0.908 (P=0.000) and the Spearman correlation coefficient (SCC) was 0.912
+    (P<0.05). ICC and SCC displayed differences over time, being 0.604 and 0.626,
+    respectively, at first visit; 0.834 and 0.843, respectively, after 3 weeks; 0.844
+    and 0.848, respectively, after 6 weeks; and 0.808 and 0.793, respectively, after
+    3 months. There was a significant difference in full recovery, depending on the
+    scale used (HB, P=0.000; FNGS 2.0, P<0.05). The exact agreements between regional
+    assessment and FNGS 2.0 for the mouth, eyes, and brow were 72%, 63%, and 52%,
+    respectively. CONCLUSION: FNGS 2.0 shows moderate agreement with HB grading. Regional
+    assessment, rather than HB grading, yields stricter evaluation, resulting in better
+    prognosis and determination of grade.'
+  abstract_retrieved: true
+  source: gold_standard_validated
+- ref_id: 26
+  pmid: 2607201
+  citation_short: Evans et al., 1989
+  citation_full: 'Evans RA, Harries ML, Baguley DM, Moffat DA. Reliability of the
+    House and Brackmann grading system for facial palsy.. J Laryngol Otol. 1989. PMID:
+    2607201. DOI: 10.1017/s002221510011093x'
+  title: Reliability of the House and Brackmann grading system for facial palsy.
+  journal: J Laryngol Otol
+  year: 1989
+  authors: Evans RA, Harries ML, Baguley DM, Moffat DA
+  doi: 10.1017/s002221510011093x
+  abstract: The House and Brackmann grading system has been recommended as a universal
+    standard for assessing the degree of facial palsy. This study examined the inter-observer
+    reliability of this system. Three observers assigned a grade to each patient,
+    examined independently, on the same day. Forty patients with a unilateral facial
+    palsy of varying aetiology and severity were assessed. Of the 120 judgements,
+    eight were in dispute, by a maximum of one grade, giving an inter-observer reliability
+    of 93 per cent. We conclude that the House and Brackmann grading system is a simple
+    and robust method of assessing facial function.
+  abstract_retrieved: true
+  source: gold_standard_validated
+- ref_id: 27
+  pmid: 3707739
+  citation_short: Burres et al., 1986
+  citation_full: 'Burres S, Fisch U. The comparison of facial grading systems.. Arch
+    Otolaryngol Head Neck Surg. 1986. PMID: 3707739. DOI: 10.1001/archotol.1986.03780070067015'
+  title: The comparison of facial grading systems.
+  journal: Arch Otolaryngol Head Neck Surg
+  year: 1986
+  authors: Burres S, Fisch U
+  doi: 10.1001/archotol.1986.03780070067015
+  abstract: To evaluate the relative merits of objective and subjective facial grading
+    systems, we compared the results obtained with the Fisch, House, and Linear Measurement
+    grading techniques in 12 subjects exhibiting varying degrees of palsy. Although
+    most grading systems correlate well with each other, systems can vary dramatically
+    in patient discrimination, interobserver variability, relative underrating and
+    overrating, properties of nerve function selected, objectivity, and clinical definition.
+    Objective and subjective data offer selective advantages.
+  abstract_retrieved: true
+  source: gold_standard_validated
+- ref_id: 28
+  pmid: 3717849
+  citation_short: Burres, 1986
+  citation_full: 'Burres SA. Objective grading of facial paralysis.. Ann Otol Rhinol
+    Laryngol. 1986. PMID: 3717849. DOI: 10.1177/000348948609500306'
+  title: Objective grading of facial paralysis.
+  journal: Ann Otol Rhinol Laryngol
+  year: 1986
+  authors: Burres SA
+  doi: 10.1177/000348948609500306
+  abstract: A totally objective method of grading facial palsy, based on the linear
+    measurement of anatomic landmarks, has been tested in 34 randomly selected cases.
+    To account for the pathologic characteristics of facial paralysis, the linear
+    measurement index (LMI) underwent several adjustments from the ground plan devised
+    for normal subjects. The distribution of results both from individual expressions
+    and the entire LMI was examined.
+  abstract_retrieved: true
+  source: gold_standard_validated
+- ref_id: 29
+  pmid: 6877014
+  citation_short: House, 1983
+  citation_full: 'House JW. Facial nerve grading systems.. Laryngoscope. 1983. PMID:
+    6877014. DOI: 10.1288/00005537-198308000-00016'
+  title: Facial nerve grading systems.
+  journal: Laryngoscope
+  year: 1983
+  authors: House JW
+  doi: 10.1288/00005537-198308000-00016
+  abstract: 'A comprehensive, accurate, and valid system for reporting results of
+    facial nerve surgery and disease is needed. This study describes and statistically
+    analyzes eight currently available systems for reliability, validity, and ease
+    of use. They are divided into three grading categories: gross scales, regional
+    systems, and specific scales. Botman and Jongkees, May, and Peitersen have proposed
+    five-point gross scales. Janssen, Smith, Adour and Swanson, and Yanagihara have
+    devised regional systems. Stennert has proposed a specific criteria scale. Fifteen
+    otologists experienced with facial nerve problems used modifications of the existing
+    scales to evaluate videotapes of 12 patients representing the complete range of
+    facial function. The observers'' responses were translated back to the original
+    scales. Observers also ranked patients from least to most severe, to obtain an
+    accurate assessment of facial function for patients in the study. A follow-up
+    questionnaire examined observers'' system preferences. Validity is measured by
+    correlating responses to different scales and by comparing responses to each scale
+    with observers'' rankings. All scales have good validity except the scales of
+    Stennert and Yanagihara. Consistency of responses is determined by reliability
+    coefficients. Coefficients for all scales are high except for the gross scale,
+    which is moderately reliable, and the Stennert scale, which is unreliable. Results
+    indicate that all scales succeed in evaluating patients with normal function or
+    total paralysis. The regional scales have the highest reliabilities but they also
+    have wide response ranges. Most also assume a level of precision that is unsubstantiated.
+    Gross scales have smaller ranges, which result in greater agreement of responses
+    but lower reliability. Comparisons to more complex scales show that the simpler
+    gross scales convey similar information about patients. The study concludes that
+    a gross scale is the best type of system and proposes a new scale for international
+    acceptance. This system has six categories, includes secondary defects, is designed
+    to clearly differentiate between moderate degrees of dysfunction, and should facilitate
+    interpretation and communication of facial nerve results.'
+  abstract_retrieved: true
+  source: gold_standard_validated
+- ref_id: 30
+  pmid: 7576582
+  citation_short: Lewis et al., 1995
+  citation_full: 'Lewis BI, Adour KK. An analysis of the Adour-Swanson and House-Brackmann
+    grading systems for facial nerve recovery.. Eur Arch Otorhinolaryngol. 1995. PMID:
+    7576582. DOI: 10.1007/BF00185387'
+  title: An analysis of the Adour-Swanson and House-Brackmann grading systems for
+    facial nerve recovery.
+  journal: Eur Arch Otorhinolaryngol
+  year: 1995
+  authors: Lewis BI, Adour KK
+  doi: 10.1007/BF00185387
+  abstract: Lack of uniformity in reporting facial nerve recovery in patients with
+    facial nerve paralysis has been a major disadvantage in comparing treatment modalities.
+    To remove subjectivity from the analysis, we devised a facial paralysis recovery
+    profile as a system for measuring facial motion. This profile has been used since
+    1968 at Kaiser Permanente Medical Center, Oakland, California. The House facial
+    paralysis grading system was introduced in 1983 for clinical use and was modified
+    by Brackmann in 1985. This latter system has since been accepted by the American
+    Academy of Otolaryngology-Head and Neck Surgery in the United States as the standard
+    used in reporting results. In a prospective study of 54 patients, we tested multiple
+    parameters that affect accurate reporting. We tested reliability and accuracy
+    of facial measurements by using 30 control subjects and 3 independent examiners.
+    We used Pearson correlation coefficients to statistically analyze results. To
+    compare our system with the House-Brackmann grading system, we measured facial
+    motions of 24 patients randomly selected from our data bank. All had incomplete
+    returns of facial function and facial defects associated with faulty regeneration
+    of a partially denervated facial nerve. Our overall results show defects in the
+    House-Brackmann system which should be addressed. We offer the Adour-Swanson grading
+    system as a reliable, easy-to-use, suitable alternative to the House-Brackmann
+    system.
+  abstract_retrieved: true
+  source: gold_standard_validated
+- ref_id: 31
+  pmid: 8108150
+  citation_short: Murty et al., 1994
+  citation_full: 'Murty GE, Diver JP, Kelly PJ, O''Donoghue GM, Bradley PJ. The Nottingham
+    System: objective assessment of facial nerve function in the clinic.. Otolaryngol
+    Head Neck Surg. 1994. PMID: 8108150. DOI: 10.1177/019459989411000203'
+  title: 'The Nottingham System: objective assessment of facial nerve function in
+    the clinic.'
+  journal: Otolaryngol Head Neck Surg
+  year: 1994
+  authors: Murty GE, Diver JP, Kelly PJ, O'Donoghue GM, Bradley PJ
+  doi: 10.1177/019459989411000203
+  abstract: The House-Brackmann is the most widely accepted system for the clinical
+    assessment of facial nerve function. It is, however, being subjective and discontinuous,
+    prone to interobserver variation. The need for an objective system persists. The
+    Nottingham System is described and compared to the Burres-Fisch system in a study
+    of 29 subjects with varying degrees of facial nerve function, ranging from normal
+    to total paralysis. Within-group component of variance analysis was 7% for the
+    Nottingham System compared to 26% for the Burres-Fisch system. Bland and Altmans'
+    analysis showed the Burres-Fisch system to be biased, overestimating small percentage
+    scores, and underestimating large ones. The Nottingham System proved unbiased.
+    The Nottingham System is recommended as an accurate objective continuous grading
+    system for the rapid assessment of facial nerve function in the clinic.
+  abstract_retrieved: true
+  source: gold_standard_validated
+- ref_id: 32
+  pmid: 8649870
+  citation_short: Ross et al., 1996
+  citation_full: 'Ross BG, Fradet G, Nedzelski JM. Development of a sensitive clinical
+    facial grading system.. Otolaryngol Head Neck Surg. 1996. PMID: 8649870. DOI:
+    10.1016/S0194-59989670206-1'
+  title: Development of a sensitive clinical facial grading system.
+  journal: Otolaryngol Head Neck Surg
+  year: 1996
+  authors: Ross BG, Fradet G, Nedzelski JM
+  doi: 10.1016/S0194-59989670206-1
+  abstract: Clinicians require a reliable and valid method of evaluating facial function
+    after facial nerve injury. This tool should be clinically relevant and easy to
+    administer, provide a quantitative score for reporting purposes, and be sensitive
+    enough to detect clinically important change over time or with treatment. The
+    proposed facial grading system has all essential information, including precise
+    definitions for each item, presented on one page. The facial grading system is
+    based on the evaluation of resting symmetry, degree of voluntary excursion of
+    facial muscles, and degree of synkinesis associated with specified voluntary movement.
+    Different regions of the face are examined separately with the use of five standard
+    expressions. All items are evaluated on point scales, and a cumulative composite
+    score is tabulated. Construct validity was addressed by comparing the proposed
+    facial grading system to prerehabilitation and postrehabilitation treatment scores
+    of 19 patients with varying degrees of facial nerve injury. All patients had documented
+    change in a controlled study of feedback training. The proposed system reports
+    results in a more continuous manner with a wider response range than the House-Brackmann
+    grades. Each component of the grading system is sensitive to change and individually
+    contributes to a change in the composite score. Tests of interrater reliability
+    are currently near completion.
+  abstract_retrieved: true
+  source: gold_standard_validated
+- ref_id: 33
+  pmid: 9339790
+  citation_short: Rickenmann et al., 1997
+  citation_full: 'Rickenmann J, Jaquenod C, Cerenko D, Fisch U. Comparative value
+    of facial nerve grading systems.. Otolaryngol Head Neck Surg. 1997. PMID: 9339790.
+    DOI: 10.1016/S0194-5998(97)70120-7'
+  title: Comparative value of facial nerve grading systems.
+  journal: Otolaryngol Head Neck Surg
+  year: 1997
+  authors: Rickenmann J, Jaquenod C, Cerenko D, Fisch U
+  doi: 10.1016/S0194-5998(97)70120-7
+  abstract: The Fisch Detailed Evaluation of Facial Symmetry (DEFS) and House-Brackmann
+    grading system (HBGS) were compared by statistical examination for their reliability
+    and interobserver variability. Furthermore, the correlation and agreement with
+    a standard global evaluation were compared. Therefore 47 patients with facial
+    palsy of different cause have been evaluated with the two systems, and the global
+    overall evaluation was done by five otolaryngologists familiar with facial palsy.
+    The DEFS showed a high reliability of 0.93 compared with a reliability of 0.77
+    with the HBGS (international standard requires a reliability of at least 0.8).
+    The mean interobserver variability is 5.24% (SD = 3.2%) with the DEFS and 9.26%
+    (SD = 5.0%) with the HBGS; with a confidence interval of 95%, it is 11.6% and
+    19.26%. The correlation of both gradings with the global evaluation was high,
+    with r = 0.98 and r = 0.97. The DEFS shows an excellent agreement with the global
+    overall evaluation in 41 (87%) of 47 cases and the HBGS in 32 (66%) of 47 cases.
+  abstract_retrieved: true
+  source: gold_standard_validated
+papers_not_in_pubmed: []
+pmid_list_sorted:
+- 1526047
+- 1892624
+- 2399941
+- 2607201
+- 3707739
+- 3717849
+- 6877014
+- 7576582
+- 8108150
+- 8649870
+- 9339790
+- 10503592
+- 10652392
+- 10808106
+- 11224766
+- 11771031
+- 12544040
+- 15547437
+- 15806042
+- 16759238
+- 17006355
+- 17141075
+- 18300959
+- 19201280
+- 19328328
+- 20422701
+- 21120826
+- 21493237
+- 22053940
+- 22487815
+- 23241802
+- 23321051
+- 24069515
